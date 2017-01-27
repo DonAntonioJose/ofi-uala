@@ -59,4 +59,11 @@ header {
 } 
 .product {
 	text-align: center;
+}
 
+.product:hover img {
+	display: none;
+}
+.product:hover .product-info{
+	display: inline-block;
+}
