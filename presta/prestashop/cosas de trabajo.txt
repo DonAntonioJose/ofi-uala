@@ -1,0 +1,1 @@
+https://www.gitignore.io/api/prestashop     un gitignore para prestashop

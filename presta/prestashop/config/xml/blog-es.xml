@@ -1,0 +1,475 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>ES - Blog Ecommerce de PrestaShop</title>
+	<atom:link href="http://www.prestashop.com/blog/es/feed/" rel="self" type="application/rss+xml" />
+	<link>https://www.prestashop.com/blog/es</link>
+	<description></description>
+	<lastBuildDate>Wed, 18 Jan 2017 08:00:06 +0000</lastBuildDate>
+	<language>es-ES</language>
+		<sy:updatePeriod>hourly</sy:updatePeriod>
+		<sy:updateFrequency>1</sy:updateFrequency>
+	<generator>http://wordpress.org/?v=3.8.1</generator>
+	<item>
+		<title>UX Desing: los errores más comunes de los diseñadores y cómo solucionarlos</title>
+		<link>https://www.prestashop.com/blog/es/ux-desing-los-errores-mas-comunes-de-los-disenadores-y-como-solucionarlos/</link>
+		<comments>https://www.prestashop.com/blog/es/ux-desing-los-errores-mas-comunes-de-los-disenadores-y-como-solucionarlos/#comments</comments>
+		<pubDate>Wed, 18 Jan 2017 08:00:06 +0000</pubDate>
+		<dc:creator><![CDATA[Eva Lacalle]]></dc:creator>
+				<category><![CDATA[Uncategorized]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=15220</guid>
+		<description><![CDATA[<p>En el blog de PrestaShop ya hemos dado consejos para mejorar la experiencia de usuario, por ejemplo en este artículo que buscaba aumentar las conversiones. Hoy volvemos a hablar de la UX pero orientado a las mejoras en el diseño, y es que hay una serie de errores que solemos cometer con bastante frecuencia y [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/ux-desing-los-errores-mas-comunes-de-los-disenadores-y-como-solucionarlos/">UX Desing: los errores más comunes de los diseñadores y cómo solucionarlos</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>En el blog de PrestaShop ya hemos dado consejos para <strong>mejorar la experiencia de usuario</strong>, por ejemplo en <a href="https://www.prestashop.com/blog/es/como-mejorar-la-experiencia-del-usuario-para-aumentar-las-conversiones/">este artículo que buscaba aumentar las conversiones</a>. Hoy volvemos a hablar de la UX pero orientado a las mejoras en el diseño, y es que hay una serie de errores que solemos cometer con bastante frecuencia y que puede restar calidad a nuestra tienda online. <span id="more-15220"></span></p>
+<p>Para crear una buena UX debemos tener en cuenta todos aquellos <strong>factores y elementos que van a interaccionar con los usuarios de nuestra web</strong>. La experiencia de usuario se verá afectada por el <strong>diseño</strong>, como la usabilidad, la accesibilidad, el diseño gráfico, etc., pero también es importante prestar atención a los <strong>aspectos más psicológicos</strong>, como las emociones que es capaz de despertar nuestra marca o nuestros productos.</p>
+<p>Hoy vamos a ver errores típicos relacionados con el diseño, que podemos encontrar en cualquier proyecto. Tanto si el error se encuentra en la interfaz a la hora de solicitar datos como en la presentación de diferentes opciones, el diseño es una de las claves a la hora de conseguir no sólo una web más estética, sino también más cómoda para el usuario.</p>
+<p>Más concretamente, vamos a ver <strong>los errores más típicos en el diseño de formularios</strong>, uno de los puntos clave en cualquier venta online y donde más abandonos de carrito suele haber. Obviamente, hay excepciones a las indicaciones que os vamos a ofrecer aquí, pero esta es una pequeña guía para ayudarte a mejorar el diseño de tu tienda online. </p>
+<h2 style="color:#251b5b">Listado en una columna</h2>
+<p>A la hora de rellenar una batería de datos, es mejor que la lista aparezca en una sola columna y no en varias, ya que generalmente tenemos un impulso vertical a la hora de leer este tipo de cuestionarios.<br />
+<img src="https://www.prestashop.com/blog/es/files/2017/01/1.jpg" alt="1" width="1000" height="402" class="alignnone size-full wp-image-15221" /><br />
+Otra opción es agrupar los datos en función de sus características básicas y presentarlas por separado, es decir, una columna para datos personales, otra para formas de pago y otra para entrega, pero los datos que solicites dentro de estas características, que estén siempre en una sola columna, una manera de mejorar la interacción con el usuario.</p>
+<h2 style="color:#251b5b">Alinea las etiquetas en la parte superior</h2>
+<p>La velocidad para rellenar formularios aumentan cuando <strong>las etiquetas se muestran en la parte superior</strong>, en vez de a la izquierda. No obstante, hay una excepción muy clara para esta regla: si tienes un listado grande de campos para rellenar con opciones variables, es mejor situar las etiquetas en el lado izquierdo, ya que, por un lado, reduce la altura total del formulario y por otro porque resulta más sencillo de leer al aportar más importancia a las etiquetas mejorando así la usabilidad.<br />
+<img src="https://www.prestashop.com/blog/es/files/2017/01/2.jpg" alt="2" width="1000" height="429" class="alignnone size-full wp-image-15222" /></p>
+<h2 style="color:#251b5b">Agrupa las etiquetas con su cuadro de entrada</h2>
+<p>Si dejas exactamente la misma distancia entre las opciones y sus etiquetas puede resultar confuso para los usuarios. <strong>Agrupa las etiquetas</strong> para dejar claro qué dato necesitas en cada campo con un solo vistazo.</p>
+<p>Esto resulta clave cuando tenemos bastantes campos, ya que podemos acabar perdiendo la percepción de qué campo pertenece a qué etiqueta<br />
+<img src="https://www.prestashop.com/blog/es/files/2017/01/3.jpg" alt="3" width="1000" height="429" class="alignnone size-full wp-image-15223" /></p>
+<h2 style="color:#251b5b">No uses las mayúsculas</h2>
+<p>En serio, debemos <strong>olvidar y desterrar las mayúsculas</strong>. En primer lugar porque en el mundo digital las mayúsculas son sinónimo de estar gritando, y ningún cliente quiere que se le grite. En segundo lugar porque las mayúsculas nos resultan más difíciles de leer. Eso sí, salvo por temas de estilo (que deben ser iguales en toda la página web) tampoco escribas todo en minúscula.<br />
+<img src="https://www.prestashop.com/blog/es/files/2017/01/4.jpg" alt="4" width="1000" height="429" class="alignnone size-full wp-image-15224" /></p>
+<h2 style="color:#251b5b">No utilices los cuadros de entrada para etiquetar</h2>
+<p>Aunque hace un tiempo estuvo muy de moda, y es verdad que visualmente ahorra espacio (motivo por el cual algún diseñador sigue utilizándolo), lo cierto es que estas opciones <strong>generan problemas de usabilidad</strong><br />
+<img src="https://www.prestashop.com/blog/es/files/2017/01/5.jpg" alt="5" width="1000" height="429" class="alignnone size-full wp-image-15225" /><br />
+Al situar el cursor, la etiqueta de información desaparece y, si tenemos que hacer alguna cosa, es bastante fácil que el usuario olvide qué tenía que escribir en el recuadro. Tampoco pueden revisar que todos los datos sean correctos antes de darle al botón para confirmar la compra, o si el sistema detecta un error. Además, los campos a rellenar resultan menos visibles de una pasada.</p>
+<h2 style="color:#251b5b">Especifica dónde está el error</h2>
+<p>Si a la hora de rellenar los diferentes campos el usuario ha cometido algún error, <strong>indícale exactamente dónde se encuentra el error</strong> y, si es posible, <strong>el motivo del fallo</strong>. Este punto es más importante cuanto más apartados tenga tu formulario, ya que ante un error que no sea fácilmente localizado, el usuario puede abandonar la web. Con este punto conseguimos mejorar la interacción con el usuario.<br />
+<img src="https://www.prestashop.com/blog/es/files/2017/01/6.jpg" alt="6" width="1000" height="362" class="alignnone size-full wp-image-15226" /></p>
+<h2 style="color:#251b5b">No escondas la ayuda básica</h2>
+<p>Hay veces que podemos <strong>ofrecer ayuda básica a la hora de cumplimentar el cuestionario</strong>. Si es así, déjalo fácilmente a la vista, al fin y al cabo se trata de ayudar al usuario a terminar el proceso lo antes posible.<br />
+<img src="https://www.prestashop.com/blog/es/files/2017/01/7.jpg" alt="7" width="1000" height="362" class="alignnone size-full wp-image-15227" /><br />
+Si optas por una opción como la segunda, puede que el usuario ponga mal su contraseña, con menos caracteres de los necesarios, le salga un error, deba volver atrás para ver dónde está el error, coloque el cursor sobre el símbolo de interrogación, descubra que tiene que poner 5 o más caracteres y, finalmente, lo ponga bien. ¿A que es más sencillo si lo dejas explicado? Pues eso, ofrece una experiencia sencilla y cómoda.</p>
+<h2 style="color:#251b5b">Destaca los botones de llamada a la acción</h2>
+<p>Si ofreces dos opciones, <strong>destaca aquella que lleve a la acción que más nos interesa</strong>. Para hacerlo puedes optar por un tamaño más grande o un color destacado. Al final el objetivo es dirigir la atención del usuario y, si crees que la segunda opción es prácticamente inútil, elimínala directamente. Esto no sólo mejora la experiencia del usuario, facilitándole al cliente la opción más lógica a seguir, sino que nos permite destacar aquellas acciones que a nosotros nos resultan más beneficiosas también.<br />
+<img src="https://www.prestashop.com/blog/es/files/2017/01/8.jpg" alt="8" width="1000" height="362" class="alignnone size-full wp-image-15228" /></p>
+<h2 style="color:#251b5b">Y piensa en todo aquello que es prescindible</h2>
+<p>En serio, muchas veces solicitamos datos que, en realidad, ni son necesarios en el proceso de compra. Los clientes que se deben enfrentar a un formulario de compra interminable suelen abandonar el proceso, creando además una experiencia de compra tan lenta y aburrida que probablemente ese usuario no compre nunca en nuestra tienda, aunque el producto sea bueno.</p>
+<p>Piensa en aquellos datos que son imprescindibles, aquellos que son opcionales y aquellos de los que, directamente, puedes olvidarte. Nadie quiere pasarse la mitad de la mañana dando datos para hacer una compra así que <strong>hazlo lo más sencillo posible</strong> y todo lo ameno que puedas, mejorarás la experiencia del usuario y ¡verás como tus ratios de conversión lo notan!</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/ux-desing-los-errores-mas-comunes-de-los-disenadores-y-como-solucionarlos/">UX Desing: los errores más comunes de los diseñadores y cómo solucionarlos</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/ux-desing-los-errores-mas-comunes-de-los-disenadores-y-como-solucionarlos/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>5 consejos para maximizar el número de opiniones positivas de los clientes en tu web de e-commerce</title>
+		<link>https://www.prestashop.com/blog/es/5-consejos-para-maximizar-el-numero-de-opiniones-positivas-de-los-clientes-en-tu-web-de-e-commerce/</link>
+		<comments>https://www.prestashop.com/blog/es/5-consejos-para-maximizar-el-numero-de-opiniones-positivas-de-los-clientes-en-tu-web-de-e-commerce/#comments</comments>
+		<pubDate>Tue, 17 Jan 2017 07:00:55 +0000</pubDate>
+		<dc:creator><![CDATA[mvalenza]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=15209</guid>
+		<description><![CDATA[<p>El e-commerce se ha convertido en un mercado muy competitivo en el que podemos encontrar fácilmente la misma promoción en distintas páginas. Ante todas estas posibilidades, la confianza es un criterio primordial de decisión para los consumidores a la hora de realizar sus compras. Para hacerse una idea del nivel de seriedad de un sitio [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/5-consejos-para-maximizar-el-numero-de-opiniones-positivas-de-los-clientes-en-tu-web-de-e-commerce/">5 consejos para maximizar el número de opiniones positivas de los clientes en tu web de e-commerce</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>El e-commerce se ha convertido en un mercado muy competitivo en el que podemos encontrar fácilmente la misma promoción en distintas páginas. Ante todas estas posibilidades, la confianza es un criterio primordial de decisión para los consumidores a la hora de realizar sus compras. </p>
+<p>Para hacerse una idea del nivel de seriedad de un sitio de e-commerce, el consumidor consulta a menudo las opiniones de los clientes disponibles.<span id="more-15209"></span> </p>
+<p>Por lo tanto, los vendedores online deben recoger el máximo número de opiniones positivas de clientes posible, así como limitar las opiniones negativas, las cuales frenan las ventas considerablemente. </p>
+<p>En este vídeo, Paul Patrick Beyeme, director comercial de Trusted Shops, comparte 5 consejos de experto para ayudarte a conseguirlo y destacar de la competencia. </p>
+<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
+<p><iframe width="700" height="394" src="https://www.youtube.com/embed/J8E83n42DuM?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="https://www.youtube.com/user/prestashop?utm_source=blog&amp;utm_medium=article&amp;utm_campaign=youtube&amp;utm_content=trustedshops"> Watch more videos</a></div>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/5-consejos-para-maximizar-el-numero-de-opiniones-positivas-de-los-clientes-en-tu-web-de-e-commerce/">5 consejos para maximizar el número de opiniones positivas de los clientes en tu web de e-commerce</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/5-consejos-para-maximizar-el-numero-de-opiniones-positivas-de-los-clientes-en-tu-web-de-e-commerce/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Recurrir a los youtubers como método infalible para disparar las ventas de tu tienda online</title>
+		<link>https://www.prestashop.com/blog/es/recurrir-los-youtubers-como-metodo-infalible-para-disparar-las-ventas-de-tu-tienda-online/</link>
+		<comments>https://www.prestashop.com/blog/es/recurrir-los-youtubers-como-metodo-infalible-para-disparar-las-ventas-de-tu-tienda-online/#comments</comments>
+		<pubDate>Tue, 10 Jan 2017 15:07:30 +0000</pubDate>
+		<dc:creator><![CDATA[mvalenza]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=15202</guid>
+		<description><![CDATA[<p>Los youtubers, lejos de conformarse con ser estrellas de Internet, se han convertido en influenciadores en toda regla a los que cada vez más internautas siguen y escuchan. Las cifras lo demuestran: YouTube, el segundo buscador más grande del mundo, permite a estos influenciadores en vídeo sumergir en su universo o sus pasiones a una [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/recurrir-los-youtubers-como-metodo-infalible-para-disparar-las-ventas-de-tu-tienda-online/">Recurrir a los youtubers como método infalible para disparar las ventas de tu tienda online</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Los <em>youtubers</em>, lejos de conformarse con ser estrellas de Internet, se han convertido en influenciadores en toda regla a los que cada vez más internautas siguen y escuchan. </p>
+<p>Las cifras lo demuestran: YouTube, <strong>el segundo buscador más grande del mundo</strong>, permite a estos influenciadores en vídeo sumergir en su universo o sus pasiones a una comunidad que puede alcanzar <strong>varios millones de suscriptores.</strong><span id="more-15202"></span></p>
+<p>Un potencial muy interesante para las webs de e-commerce, que cada vez invitan a más youtubers a hablar de sus productos. </p>
+<p>En el vídeo de hoy, Elodie, de la agencia Envergure Digitale y propietaria del canal Lecoindelodie, con más de <strong>200 000 seguidores</strong>, nos explica las razones para trabajar con un youtuber a la hora de <strong>captar clientes</strong> y cómo hacerlo. </p>
+<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
+<p><iframe width="700" height="394" src="https://www.youtube.com/embed/ybFO7hQ2QNo?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="https://www.youtube.com/user/prestashop?utm_source=blog&amp;utm_medium=article&amp;utm_campaign=youtube&amp;utm_content=enverguredigitale">Spektu pli videos</a></div>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/recurrir-los-youtubers-como-metodo-infalible-para-disparar-las-ventas-de-tu-tienda-online/">Recurrir a los youtubers como método infalible para disparar las ventas de tu tienda online</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/recurrir-los-youtubers-como-metodo-infalible-para-disparar-las-ventas-de-tu-tienda-online/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Cómo migrar PrestaShop a un nuevo servidor</title>
+		<link>https://www.prestashop.com/blog/es/como-migrar-prestashop-un-nuevo-servidor/</link>
+		<comments>https://www.prestashop.com/blog/es/como-migrar-prestashop-un-nuevo-servidor/#comments</comments>
+		<pubDate>Mon, 09 Jan 2017 11:25:32 +0000</pubDate>
+		<dc:creator><![CDATA[Eva Lacalle]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=15195</guid>
+		<description><![CDATA[<p>Una de las tareas técnicas a las que cualquier dueño de una e-commerce puede tener que enfrentarse es el cambio de su tienda PrestaShop a un nuevo servidor. Mover una tienda entera a un nuevo server no es complicado pero es necesario tener en cuenta una serie de aspectos y realizar el proceso en el [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/como-migrar-prestashop-un-nuevo-servidor/">Cómo migrar PrestaShop a un nuevo servidor</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Una de las tareas técnicas a las que cualquier dueño de una e-commerce puede tener que enfrentarse es el <strong>cambio de su tienda PrestaShop a un nuevo servidor</strong>. Mover una tienda entera a un nuevo server no es complicado pero es necesario tener en cuenta una serie de aspectos y realizar el proceso en el orden conveniente para no tener problemas en tu web. En el blog de PrestaShop hemos creado una pequeña guía que te ayudará a <strong>migrar tu web a otro hosting.</strong><span id="more-15195"></span></p>
+<h4 style="color:#eaad52">Antes de empezar…</h4>
+<p>Antes de empezar a meternos en faena, para migrar tu web PrestaShop es necesario que estés seguro de que cuentas con lo siguiente:</p>
+<ul>
+<li><strong>Tener instalado en tu ordenador el cliente FTP que prefieras</strong> y poder conectarte vía FTP tanto al nuevo servidor como al antiguo.  Si tienes problemas en este punto, habla con el soporte de la compañía de hosting en cuestión y solicítales los datos que necesites.</li>
+<li><strong>Contar con una cuenta de administrador en el cPanel de tus tiendas</strong>, tanto en el antiguo servidor como en el nuevo.</li>
+<li>Igualmente, <strong>tener cuenta de administrador en el backoffice de tus tiendas PrestaShop</strong>, tanto en la nueva como en la alojada en el antiguo servidor.</li>
+</ul>
+<p>Si ya tienes esto… ¡empezamos a migrar!</p>
+<h4 style="color:#eaad52">Paso 1: revisa la versión de PrestaShop en la que se encuentra la tienda online y pon la tienda en mantenimiento</h4>
+<p>Si es necesario, <strong>actualiza la versión de PrestaShop sobre la que está trabajando tu web</strong>. Si no tienes claro dónde comprobar la versión de PrestaShop en la que se encuentra tu tienda sólo tienes que mirar en la barra superior en el backoffice de tu tienda.</p>
+<p>Además, aunque no es obligatorio, nosotros <strong>te recomendamos poner la tienda en mantenimiento</strong>, así, si alguien entra en tu dominio no perderás datos mientras dura el proceso de migrar tu Prestashop. Si tienes tu web en local, no es necesario este paso, ya que tu web en PrestaShop no es pública en internet.</p>
+<h4 style="color:#eaad52">Paso 2: realiza una copia de seguridad en el antiguo servidor</h4>
+<p>Para ello, accede al panel de control del actual servidor (el antiguo) como administrador y <strong>busca el módulo de backup que te permitirá generar una copia de seguridad de tu PrestaShop</strong> rápidamente. Si tienes problemas en esta etapa, contacta con el soporte de la compañía de hosting y te indicarán rápidamente dónde puedes realizar este paso.</p>
+<p>Una vez tengas la copia de seguridad, <strong>descárgala en tu ordenador.</strong> No realices ningún paso de la migración de tu tienda PrestaShop hasta que no tengas una copia de seguridad guardada. Así, si algo falla en el proceso no perderás tu web.</p>
+<h4 style="color:#eaad52">Paso 3: Descarga los ficheros de tu tienda en tu ordenador</h4>
+<p>Empezamos con el cambio: descarga todos los archivos de tu tienda online PrestaShop en tu ordenador. ¿Cómo realizamos esta tarea? Sigue estos pasos.</p>
+<p>Lo primero es crear una nueva carpeta en tu escritorio y conectar con el cliente FTP que hayas elegido; después <strong>conéctate vía FTP con el servidor actual</strong>. ¿Cómo saber si lo has hecho correctamente? Si la conexión se ha realizado bien, deberías ver un listado de carpetas en el panel derecho.</p>
+<p>Una vez conectado, debes navegar a tu directorio público, más conocido como carpeta <strong>public_html</strong> o htdocs, y ábrela. Ten en cuenta que si tienes tu tienda instalada en un subdirectorio (es decir, si tiene un dominio con formato del tipo: <a href="http://www.tuweb.com/tienda" target="_blank">www.tuweb.com/tienda</a>) tendrás que buscar la carpeta correspondiente y abrirla.</p>
+<p>Selecciona todos los archivos (ctrl+A/cmd+A) y arrástralos hasta la carpeta que creaste en tu escritorio para que se empiecen a descargar todos los archivos en tu ordenador. Este proceso puede llevar unos minutos, en función del número de archivos y peso de los mismos.</p>
+<p>Una vez se hayan descargado todos los archivos de tu PrestaShop, aparecerá un mensaje de aviso informándote de que la transferencia de archivos ha concluido.</p>
+<h4 style="color:#eaad52">Paso 4: exporta la base de datos de tu tienda</h4>
+<p>Una vez hemos transferido los archivos a nuestro ordenador toca <strong>volver al cPanel del servidor</strong> actual y buscar el <strong>módulo phpMyAdmin</strong> (<a href="https://www.phpmyadmin.net/" target="_blank">phpMyAdmin</a> es una herramienta escrita en PHP para gestionar una base de datos, ya que te permite crear, eliminar o modificar datos de bases de datos SQL).</p>
+<p>Cuando lo abras encontrarás en la parte izquierda una relación de todas las bases de datos disponibles, <strong>debes seleccionar la base de datos de tu tienda actual</strong>. Cuando lo hagas te aparecerá en la parte derecha una lista de tablas.</p>
+<p><strong>Haz click en “Exportar”</strong> para comenzar con la descarga de nuestra base de datos. Deja seleccionadas las opciones como te aparecen por defecto y continúa. En este momento tu navegador comenzará a descargar un archivo comprimido que contiene una copia de la base de datos de tu tienda PrestaShop.</p>
+<h4 style="color:#eaad52">Paso 5: crea una nueva base de datos en el nuevo servidor</h4>
+<p>Accede al panel de control del nuevo server como administrador, <strong>localiza el módulo MySQLDatabaseWizard</strong> y sigue los pasos para crear una nueva base de datos. Pon un nombre que se diferencie claramente de la base de datos de tu anterior web Prestashop.</p>
+<h4 style="color:#eaad52">Paso 6: importa la base de datos de la antigua tienda al nuevo servidor</h4>
+<p>En el servidor, <strong>localiza nuevamente el módulo phpMyAdmin</strong>. Cuando lo abras verás en el panel izquierdo (en el listado de las bases de datos disponibles) la que hemos creado en el paso anterior, debes seleccionarla.</p>
+<p><strong>En el panel derecho, haz clic en “Import”</strong> y selecciona el archivo que hemos descargado en el cuarto paso. Cuando se haya importado la base de datos de tu PrestaShop correctamente te aparecerá un mensaje de aviso.</p>
+<h4 style="color:#eaad52">Paso 7: sube los archivos de tu tienda al nuevo servidor</h4>
+<p><strong>Vuelve a tu cliente FTP y conecta con el servidor</strong> que hayas elegido. <strong>Navega a public_html</strong> si quieres instalar tu tienda en el nivel raíz o, si prefieres instalarlo en una subcarpeta (es decir,<a href="http://www.tuweb.com/tienda" target="_blank"> www.tuweb.com/tienda</a>) tendrás que crear la carpeta correspondiente dentro del directorio público y ábrela.</p>
+<p><strong>Arrastra los archivos</strong> desde tu ordenador (aquellos que hemos copiado en el paso tres) y suéltalos en el directorio correspondiente del nuevo servidor. Nuevamente, este proceso puede llevar unos minutos.</p>
+<h4 style="color:#eaad52">Paso 8: edita los archivos config/settings.inc.php de Prestashop</h4>
+<p><strong>Busca en tu cliente FTP el archivo config/settings.inc.php</strong>, ábrela y edita las líneas que te indicamos a continuación.</p>
+<p><img src="https://www.prestashop.com/blog/es/files/2017/01/configuracion_servidor_paso8.jpg" alt="configuracion_servidor" width="669" height="219" class="alignnone size-full wp-image-15196" /></p>
+<p>Este archivo PHP debemos editarlo con la información que nos facilite el hosting y la que nosotros hayamos elegido para configurar nuestro PrestaShop:</p>
+<ul>
+<li>DB_SERVER: servidor de la base de datos.</li>
+<li>DB_NAME: nombre de la base de datos del paso 5.</li>
+<li>DB_USER: usuario asociado a la base de datos.</li>
+<li>DB_PASSWD: contraseña del usuario.</li>
+</ul>
+<p>Guarda la carpeta y súbela al servidor.</p>
+<h4 style="color:#eaad52">Paso 9: comprueba los permisos</h4>
+<p>Antes de que comprobar que la tienda nueva funciona correctamente, debes <strong>comprobar que los ficheros y directorios tienen los permisos correctos</strong>. Debes consultar siempre con el hosting que hayas seleccionado, pero en general, la mayoría trabajan con:</p>
+<ul>
+<li>Permisos para ficheros: 664</li>
+<li>Permisos para directorios: 755</li>
+</ul>
+<p>Si tienes algún problema con la carga de imágenes, prueba a dar permiso 777.</p>
+<h4 style="color:#eaad52">Paso 10: limpia la caché</h4>
+<p>Lo ideal es que borres la caché de tu página y <strong>fuerces una nueva reindexación</strong>, para asegurar que todo funciona correctamente. Ten en cuenta que si no realizas este paso, puedes estar viendo los datos de la antigua página almacenada en la caché de tu navegador y, si hay fallos, pueden no aparecerte.</p>
+<p>Para borrar correctamente la caché, borra el contenido de las carpetas /cache/smarty/compile y /chache/smarty/cache, <strong>menos el fichero index.php</strong> en ambos casos.</p>
+<h4 style="color:#eaad52">Paso 11: quita el modo de mantenimiento</h4>
+<p>Entra en el backoffice de Prestashop de tu web y <strong>elimina el modo mantenimiento de tu tienda.</strong></p>
+<p>Cuando lo hayas hecho, debemos entrar en nuestro dominio y comprobar que nuestra web funciona correctamente. Si es así, <strong>el proceso de migrar Prestashop a otro hosting ha terminado</strong>, ya tienes tu tienda en tu nuevo servidor. </p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/como-migrar-prestashop-un-nuevo-servidor/">Cómo migrar PrestaShop a un nuevo servidor</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/como-migrar-prestashop-un-nuevo-servidor/feed/</wfw:commentRss>
+		<slash:comments>0</slash:comments>
+		</item>
+		<item>
+		<title>Calendario de e-commerce de 2017: 52 trucos para triunfar</title>
+		<link>https://www.prestashop.com/blog/es/calendario-de-e-commerce-de-2017-52-trucos-para-triunfar/</link>
+		<comments>https://www.prestashop.com/blog/es/calendario-de-e-commerce-de-2017-52-trucos-para-triunfar/#comments</comments>
+		<pubDate>Thu, 05 Jan 2017 11:41:55 +0000</pubDate>
+		<dc:creator><![CDATA[Cécile Dubouis]]></dc:creator>
+				<category><![CDATA[Actualidad PrestaShop]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=15167</guid>
+		<description><![CDATA[<p>¡Que comience el año! ¡Tu calendario de e-commerce de 2017 ya está aquí! Con periodos de preparación para cada promoción en las fechas clave de tu país, encontrarás todas las semanas un consejo para triunfar en todas tus operaciones comerciales, mejorar el tráfico, optimizar las conversiones y tu cifra de negocios y gestionar de una [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/calendario-de-e-commerce-de-2017-52-trucos-para-triunfar/">Calendario de e-commerce de 2017: 52 trucos para triunfar</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>¡Que comience el año! ¡Tu <a href="https://www.prestashop.com/es/calendario-ecommerce">calendario de e-commerce de 2017</a> ya está aquí!<br />
+Con periodos de preparación para cada promoción en las fechas clave de tu país, encontrarás todas las semanas un consejo para triunfar en todas tus operaciones comerciales, mejorar el tráfico, optimizar las conversiones y tu cifra de negocios y gestionar de una forma sencilla y eficaz tu tienda.<br />
+<span id="more-15167"></span><br />
+Nuestro agradecimiento a <a href="http://www.pagination.com/" target="_blank">Pagination.com</a> por su ayuda en la integración de la plantilla y los datos <img src="https://www.prestashop.com/blog/es/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> <!--more--></p>
+<h2 style="color:#df0067">12 páginas que te acompañarán todo el año</h2>
+<p>El talento y las buenas ideas los pones tú. ¡Nosotros simplemente te ayudamos a organizarte!</p>
+<p><strong>Los principales periodos de actividad de un solo vistazo</strong>. Gracias al calendario circular, sabrás <strong>cuándo y cómo prepararte para las principales citas comerciales</strong> (rebajas, Navidad, Día de la Madre, Black Friday, etc.) y para los eventos que trae 2017.</p>
+<p><strong>Cada semana, un consejo</strong>. Para aumentar el tráfico o las conversiones, una idea para mejorar la experiencia del usuario, optimizar el valor medio del carrito o fidelizar a tus clientes en tu tienda online, etc.</p>
+<p><strong>Los secretos del éxito de los otros vendedores online</strong>. Cada mes, un vendedor online de PrestaShop compartirá contigo uno de sus trucos. ¡Aprovéchalos!</p>
+<p><strong>Una selección de herramientas que te facilitarán las tareas diarias</strong>. En cada consejo, encontrarás una selección de módulos para elaborar de forma sencilla tus boletines, crear tus promociones en unos pocos clics, optimizar la gestión de tu tienda&#8230;</p>
+<h2 style="color:#df0067">Descargado en todo el mundo</h2>
+<p><em>“No doy abasto, son las rebajas, no sabía las fechas de antemano y todavía no he preparado nada en mi tienda&#8230; ¡Este periodo es crucial comercialmente hablando y lo estoy dejando pasar!”</em>.<br />
+Esto es lo que nos contaban hace 5 años en los encuentros y en las auditorías de e-commerce. En aquel momento no existía ninguna herramienta que ayudara a los vendedores online a organizar sus tareas diarias. </p>
+<p>Unas semanas más tarde creamos el calendario circular que permite saber rápidamente cuándo y cómo prepararse para cada promoción.</p>
+<p>Desde entonces, nuestro calendario de e-commerce se descarga cada año desde todas las partes del mundo y se hace eco en incontables sitios web de expertos de e-commerce. Estoy muy contenta y emocionada de que este calendario te haya podido ayudar en tu vida diaria.</p>
+<p><strong>Estés donde estés, ¡aprovecha los consejos adaptados a tu país!</strong></p>
+<p>Con la ayuda de los <a href="https://ambassadors.prestashop.com/" target="_blank">Embajadores de PrestaShop</a>, hemos realizado este año versiones de nuestro calendario de e-commerce para un mayor número de países con el fin de guiar a cada vez más vendedores hacia el éxito.<br />
+El calendario de 2017 está disponible en <strong>8 idiomas</strong> y se ha personalizado para <strong>10 países</strong> (Alemania, Argentina, Brasil, España, Estados Unidos, Francia, Italia, Países Bajos, Polonia y Reino Unido).</p>
+<p>Ahora ya tienes las claves para anticiparte y saber cuándo y cómo preparar tu sitio web de e-commerce para 2017.<br />
+Una cosa más.<strong>Tu tienda es única.</strong><br />
+Este calendario también incluye secciones que hay que rellenar. Y debes hacerlo tú<br />
+porque conoces mejor que nadie tus productos y lo que le gustará a tus clientes. Añade en las secciones vacías las acciones que te gustaría poner en práctica para adelantarte y triunfar a lo grande en este nuevo año.</p>
+<p>“<em>El futuro es el pasado en preparación</em>” (Pierre Dac).<br />
+¡Preparémonos y construyamos juntos un gran año!</p>
+<p>Descarga tu <a href="https://www.prestashop.com/es/calendario-ecommerce">calendario de e-commerce de 2017</a></p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/calendario-de-e-commerce-de-2017-52-trucos-para-triunfar/">Calendario de e-commerce de 2017: 52 trucos para triunfar</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/calendario-de-e-commerce-de-2017-52-trucos-para-triunfar/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Consejos infalibles de marketing por email para e-commerce</title>
+		<link>https://www.prestashop.com/blog/es/consejos-infalibles-de-marketing-por-email-para-e-commerce/</link>
+		<comments>https://www.prestashop.com/blog/es/consejos-infalibles-de-marketing-por-email-para-e-commerce/#comments</comments>
+		<pubDate>Tue, 03 Jan 2017 08:00:06 +0000</pubDate>
+		<dc:creator><![CDATA[Los amigos de Preston]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=15177</guid>
+		<description><![CDATA[<p>El email es sin duda la herramienta más eficaz para el marketing, la creación de marca, el desarrollo de relaciones duraderas con los clientes y la obtención de respuesta directa. Mientras que un buen email puede ayudarte a mejorar considerablemente tus índices de respuesta y a forjar relaciones duraderas con los suscriptores, un correo mal [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/consejos-infalibles-de-marketing-por-email-para-e-commerce/">Consejos infalibles de marketing por email para e-commerce</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>El email es sin duda la herramienta más eficaz para el marketing, la creación de marca, el desarrollo de relaciones duraderas con los clientes y la obtención de respuesta directa. Mientras que un buen email puede ayudarte a mejorar considerablemente tus índices de respuesta y a forjar relaciones duraderas con los suscriptores, un correo mal redactado no solo puede ahuyentar a tus clientes potenciales, sino también perjudicar a tu marca.<span id="more-15177"></span></p>
+<p>Asimismo, el email es una magnífica herramienta para enviar contenido relevante a suscriptores interesados.</p>
+<p>En principio, los emails de e-commerce responden a tres objetivos:</p>
+<ol style="font-weight: bold;">
+<li>Dinamizar las ventas</li>
+<li>Generar más ingresos</li>
+<li>Mantener a los suscriptores activos y hacer que compren incesantemente</li>
+</ol>
+<p>Crear estrategias eficaces de marketing por email no es una tarea sencilla. Si quieres aprovechar las innumerables oportunidades que ofrece el marketing por email, es absolutamente necesario probar, analizar y mejorar de manera constante el efecto de los mensajes.</p>
+<p><em>Para destacar dentro de tu círculo, una regla tácita de conversación es resultar relevante.</em></p>
+<p>Lo mismo se aplica al marketing por email. Con el ajetreo del día a día, no prestamos atención a aquello que no nos interesa. Teniendo esto en cuenta, clasifica a tus suscriptores por edad, género, ubicación, compras pasadas, intereses y artículos más visitados. Esto te permitirá personalizar tus correos electrónicos y enviar información relevante a los suscriptores interesados.</p>
+<p>Exploremos las estrategias para aumentar la eficacia del marketing por email en los sitios web de e-commerce.</p>
+<h2 style="color: #251b5b;">1. Diseña para garantizar la entrega</h2>
+<p>Para asegurarte de que tu correo electrónico no sufre problemas de entrega, debes diseñarlo correctamente. Tienes que asegurarte de que tus principales clientes por email son compatibles con los elementos de tu correo electrónico.</p>
+<p>Según las últimas <a href="https://litmus.com/blog/mobile-friendly-email-september-2016-email-market-share" target="_blank">estadísticas de marketing por correo electrónico realizadas por Litmus</a>, la tasa de apertura de email alcanza el 56 % en dispositivos móviles, el 17 % en el ordenador y el 27 % en webmail.</p>
+<p>El diseño debe ser adaptativo, de modo que resulte compatible con ordenadores portátiles así como con dispositivos móviles.</p>
+<p>Tus correos electrónicos siempre deben incluir un botón de cancelación de suscripción con acceso a un centro de preferencias que permita a tus clientes establecer cuándo quieren recibir noticias tuyas. Esto mejorará tu credibilidad, ya que contribuirá a reducir la tasa de spam.</p>
+<p><img class="aligncenter size-full wp-image-15179" alt="design-deliverability" src="https://www.prestashop.com/blog/es/files/2017/01/design-deliverability.jpg" width="772" height="525" /></p>
+<h2 style="color: #251b5b;">2. Plantilla de correo electrónico</h2>
+<p>La plantilla de correo electrónico incluye los siguientes elementos:</p>
+<h4 style="color: #251b5b;">a. Nombre del remitente</h4>
+<p>El remitente es muy importante y e influye enormemente en la tasa de apertura. Si no consigues captar la atención con el nombre del remitente, el asunto del mensaje también será ignorado y quizás tu correo termine en la papelera o marcado como spam. La mejor manera de que te presten atención es utilizar un nombre del remitente fiable que tus suscriptores reconozcan. Suele ser el nombre de la empresa o el del fundador.</p>
+<h4 style="color: #251b5b;">b. Línea de asunto</h4>
+<p>La línea de asunto del correo electrónico tiene que despertar curiosidad o reflejar claramente el contenido del mensaje. Por ejemplo, &#8220;No puedes perderte esto&#8221; suena intrigante, mientras que &#8220;Descuentos del 70 % en tus compras&#8221; resulta muy obvio. Una línea de asunto original capta la atención del suscriptor mucho más rápido que una convencional.</p>
+<p>Pero ¿qué longitud debe tener? Si quieres que tus suscriptores vean la línea completa en su bandeja de entrada, asegúrate de que contiene menos de 50 caracteres.</p>
+<p><a href="http://www.contactmonkey.com/blog/portfolio-items/funnelholic-blog-top-5-best-practices-for-email-subject-lines" target="_blank">El 40 % de los correos electrónicos se abre por primera vez en el teléfono móvil</a> y, por tanto, es de vital importancia ajustar tu línea de asunto al límite de caracteres mencionado. Para aumentar la tasa de apertura, incluye &#8220;Envío gratuito&#8221; en la línea de asunto. Según un estudio, la tasa de apertura de estos emails <a href="http://www.marketingprofs.com/charts/2013/11228/the-most-effective-keywords-in-email-subject-lines" target="_blank">es un 35,9 % más alta que la media</a>. <a href="http://www.marketingprofs.com/charts/2013/11228/the-most-effective-keywords-in-email-subject-lines" target="_blank">Generalmente los suscriptores rehúyen de palabras como &#8220;ahora&#8221;, &#8220;compra&#8221;, &#8220;barato&#8221; y &#8220;gratis&#8221;</a>.</p>
+<p>También se ha demostrado que las líneas de asunto personalizadas y las que incorporan emoticonos graciosos incrementan las tasas de apertura. Prueba incluyendo un bonito muñeco de nieve, unos cascabeles, o emoticonos festivos en la línea de asunto del correo electrónico que envíes por Navidad.</p>
+<p><img class="aligncenter size-full wp-image-15180" alt="emojis" src="https://www.prestashop.com/blog/es/files/2017/01/emojis.png" width="663" height="201" /></p>
+<p style="text-align: right;"><a href="http://www.emailmonks.com/infographics/ecommerce-email-marketing-best-practices/" target="_blank"><em>Fuente: Emailmonks infographic</em></a></p>
+<p><img class="aligncenter size-full wp-image-15182" alt="subjetline" src="https://www.prestashop.com/blog/es/files/2017/01/subjetline.png" width="701" height="131" /></p>
+<h4 style="color: #251b5b;">c. Texto de pre-encabezado</h4>
+<p>Un texto de pre-encabezado atractivo es otro elemento importante que puede mejorar las tasas de apertura de email con pocos caracteres. De manera sutil, adelanta a los clientes el contenido del correo electrónico antes de que lo hayan abierto.</p>
+<p><img class="aligncenter size-medium wp-image-15181" alt="preheader-text" src="https://www.prestashop.com/blog/es/files/2017/01/preheader-text-201x300.jpg" width="201" height="300" /></p>
+<h4 style="color: #251b5b;">d. Cuerpo del mensaje</h4>
+<p>Una vez que tus suscriptores hayan abierto tu correo, no deberían arrepentirse de su decisión; al contrario, deberían sentirse satisfechos por el modo en que tu mensaje ha respondido a su problema. Las palabras que utilices deben &#8220;conectar&#8221; y empatizar, y no sonar claramente comerciales. Si hablas sobre la temporada de fiestas, puedes darles a tus correos un tono festivo con colores brillantes, animaciones y gráficos enriquecidos. Lo que hay que tener presente es que <a href="http://blog.mojn.com/ecommerce-personalization-stats/" target="_blank">al 75 % de los consumidores les gusta los correos electrónicos personalizados</a>.</p>
+<h2 style="color: #251b5b;">3. Ofertas atractivas y CTA notorio</h2>
+<p>Por lo general, los incentivos y las ofertas atractivas son las estrategias que dinamizan las ventas y convencen al usuario para que entre en acción. Un CTA claramente visible en tus correos electrónicos transmitirá una idea a los usuarios. Los suscriptores deben poder comprender la necesidad de actuar. Buscan productos que puedan resolver sus problemas. Si tu producto no les facilita la vida, creerán que les irá mejor sin él. El cometido de tu correo electrónico es evitar que piensen eso y hacer que entren en acción.</p>
+<p>Puedes destacarte aún más y ofrecer algo único a tus suscriptores a cambio de ese clic. Por ejemplo, <em>un descuento, un regalo gratuito o un cupón exclusivo en su próxima compra</em>.</p>
+<p>Los correos electrónicos de e-commerce que incluyen cupones alcanzan una mayor tasa de apertura, de clic y de compra <a href="http://www.indonesia-investments.com/news/todays-headlines/indonesian-finance-ministry-extends-tax-incentive-pioneering-industries/item5864" target="_blank">Conviene destacar que las empresas invierten en incentivos y promociones 76 900 millones de dólares al año</a>.</p>
+<h2 style="color: #251b5b;">4. Hora de envío del correo electrónico</h2>
+<p>Enviar un correo electrónico en el momento adecuado es de vital importancia si quieres que el destinatario lo abra. Obviamente, a tus clientes no les gustará recibir tu correo de promoción de descuentos a las 2 de la madrugada. Atrae a tus clientes en el momento óptimo para obtener los mejores resultados de tu campaña de email.</p>
+<p>Según Mailchimp, <a href="https://blog.mailchimp.com/insights-from-mailchimps-send-time-optimization-system/" target="_blank">el mejor día de la semana para enviar correos electrónicos es el jueves</a>. Además, la mejor hora de envío es a las 10 de la mañana de la zona horaria del destinatario.</p>
+<p>Pero, para conseguir la mejor tasa de compromiso, es recomendable que revises regularmente tus estadísticas de correo electrónico. Revisa atentamente las horas que mejor funcionan; así tu correo no quedará olvidado en el buzón.</p>
+<h2 style="color: #251b5b;">5. Automatización del correo electrónico</h2>
+<p>Es importante hacer saber a tus suscriptores que valoras la relación con ellos. Enviar correos automáticos funciona bien para atraerlos y animarlos a que vuelvan a comprar en marketing por email para e-commerce.</p>
+<p>La automatización ahorra el esfuerzo de enviar manualmente un correo electrónico personalizado a tus suscriptores. Puedes diseñar un programa de comunicación por correo electrónico y, en función de este, abordar las cuestiones de un determinado suscriptor mediante el ciclo de vida del correo electrónico.</p>
+<p>Una vez que tu suscriptor se registra a tu newsletter o confirma el primer pedido, puedes dar inicio a un mecanismo de correos automáticos, empezando por los correos de bienvenida, correos promocionales, correos transaccionales y correos con información de envío.</p>
+<p>También puedes enviar un email de abandono de carrito si el suscriptor abandona un artículo en el carro. Puedes incluso enviar recomendaciones de productos en el email de abandono de carrito o al finalizar una compra.</p>
+<p>Utiliza tu creatividad y atrae a los clientes con varias ideas únicas que pueden ayudarte a promocionar tu marca.<br />
+Como se están acercando las fiestas, te sugerimos las siguientes ideas de correos electrónicos automáticos:</p>
+<p><img class="aligncenter size-full wp-image-15183" alt="sur-la-table" src="https://www.prestashop.com/blog/es/files/2017/01/sur-la-table.jpg" width="236" height="1254" /></p>
+<ul>
+<li>Ideas de última hora para regalos</li>
+<li>Pedir que dejen un comentario y que te recomienden a amigos y familiares e incluir ofertas exclusivas para estas fiestas al registrarse</li>
+<li>Correos electrónicos de ventas cruzadas</li>
+</ul>
+<p><img class="aligncenter size-full wp-image-15178" alt="your-next-box" src="https://www.prestashop.com/blog/es/files/2017/01/your-next-box.jpg" width="500" height="1495" /></p>
+<h2 style="color: #251b5b;">6. No olvides probar en tu correo</h2>
+<p>Los profesionales del marketing por email piensan que los correos electrónicos de pruebas A/B consumen demasiado tiempo, pero esa pequeña inversión puede mejorar los resultados considerablemente. La realización de pruebas permite evaluar la mejor oferta para toda la base de datos de clientes y, además, ayuda a establecer qué grupos de clientes eligen determinadas ofertas.</p>
+<p><em>Prueba SIEMPRE tu correo electrónico antes de pulsar el botón de ENVIAR.</em></p>
+<p>Por último, el marketing por email consiste en crear relevancia y mantenerla para evitar que los clientes cancelen su suscripción. Aplica este aprendizaje en tus próximas campañas y asegúrate de que realizas pruebas varias veces para estar completamente seguro.</p>
+<h2 style="color: #251b5b;">Conclusiones</h2>
+<p>Es posible lanzar campañas de marketing por email en vacaciones que resulten eficaces, sin convertirte en el típico sitio web de e-commerce que envía correos electrónicos incoherentes con demasiada frecuencia. Lo que los clientes buscan realmente son correos creativos que vayan más allá del mero marketing y los trucos de ventas. Los resultados que obtienes con un marketing por email eficaz son realmente increíbles.</p>
+<p><strong><span style="text-decoration: underline;">Sobre el autor:</span></strong></p>
+<p>Kevin es director de marketing en <a href="http://www.emailmonks.com/" target="_blank">EmailMonks</a>, una de las empresas de diseño y programación de correo electrónico de mayor crecimiento. Está especializado en el diseño de correos visualmente atractivos, la conversión HTML de <a href="http://www.emailmonks.com/psd-to-email/psd-to-email-html-service.html" target="_blank">PSD a email adaptativo</a> y mucho más. A Kevin le apasionan los dispositivos electrónicos, las bicicletas y el jazz, y vive por el marketing por email. Es un genio del branding al que le encanta compartir ideas con sus compañeros. Síguelo en <a href="https://twitter.com/imkevin_monk" target="_blank">Twitter</a>.</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/consejos-infalibles-de-marketing-por-email-para-e-commerce/">Consejos infalibles de marketing por email para e-commerce</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/consejos-infalibles-de-marketing-por-email-para-e-commerce/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>PrestaShop 1.7: ayuda a traducir el software</title>
+		<link>https://www.prestashop.com/blog/es/prestashop-1-7-ayuda-traducir-el-software/</link>
+		<comments>https://www.prestashop.com/blog/es/prestashop-1-7-ayuda-traducir-el-software/#comments</comments>
+		<pubDate>Wed, 21 Dec 2016 08:00:35 +0000</pubDate>
+		<dc:creator><![CDATA[Alexandra Even]]></dc:creator>
+				<category><![CDATA[Actualidad PrestaShop]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=15145</guid>
+		<description><![CDATA[<p>El software de código abierto gratuito de PrestaShop debe mucho a su comunidad, que ayuda a mejorarlo cada día. Hay muchas formas de contribuir: editar el código fuente, enviar comentarios a través de Forge, crear módulos o participar en pruebas de usuarios. De una forma más discreta, la participación de la comunidad en el proyecto [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/prestashop-1-7-ayuda-traducir-el-software/">PrestaShop 1.7: ayuda a traducir el software</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>El software de código abierto gratuito de PrestaShop debe mucho a su comunidad, que ayuda a mejorarlo cada día. Hay muchas formas de contribuir: editar el <a href="https://github.com/PrestaShop/PrestaShop" target="_blank">código fuente</a>, enviar comentarios a través de <a href="http://forge.prestashop.com/" target="_blank">Forge</a>, crear <a href="http://addons.prestashop.com/es/" target="_blank">módulos</a> o participar en pruebas de usuarios. De una forma más discreta, la participación de la comunidad en el <a href="https://crowdin.com/project/prestashop-official" target="_blank">proyecto de traducción de PrestaShop</a> ha permitido que el software esté disponible en unos 65 idiomas, lo que ofrece a comerciantes de todo el mundo la posibilidad de lanzar su tienda gratis y en su propio idioma.<span id="more-15145"></span></p>
+<p>Con la llegada de la <a href="https://www.prestashop.com/es/1.7" target="_blank">versión 1.7</a> y sus novedades, hay nuevos contenidos disponibles para traducir. Ahora más que nunca la movilización de la comunidad es esencial.</p>
+<h2 style="color:#251b5b;">Traducir PrestaShop</h2>
+<p>Nuestro proyecto de traducción permite traducir todo el software de PrestaShop a más de 80 idiomas. En línea con la filosofía del código abierto, cualquier persona que desee ayudar es bienvenida. Algunos idiomas están en proceso de traducción, otros ya están terminados (aunque siempre abiertos a mejoras) y algunos apenas empiezan a traducirse.</p>
+<p>¿Tú también quieres unirte a la comunidad de traductores? Es muy sencillo:</p>
+<ul>
+<li>Crea una cuenta en Crowdin.</li>
+<li>Envía una solicitud para acceder al proyecto del idioma al que quieras traducir PrestaShop.</li>
+<li>Participa en la traducción del software desde el inglés.</li>
+</ul>
+<p>Encontrarás más información directamente en la <a href="https://crowdin.com/project/prestashop-official" target="_blank">página de nuestro proyecto de traducción</a> (en inglés).</p>
+<p><img src="https://www.prestashop.com/blog/es/files/2016/12/translator.jpg" alt="PrestaShop 1.7: ayuda a traducir el software " width="339" height="285" class="aligncenter size-full wp-image-15146" /></p>
+<h2 style="color:#251b5b;">Agradecimientos a la comunidad de traductores</h2>
+<p>Desde el lanzamiento del proyecto de traducción en Crowdin en 2014, <strong>más de 1100 traductores han traducido casi 3 millones de palabras a 72 idiomas</strong>, ¡casi nada!</p>
+<p>Para dar más visibilidad al trabajo de los traductores y agradecerles su ayuda, hemos lanzado recientemente un sitio web en su honor, en el que podrás descubrir a los traductores que más han contribuido desde el lanzamiento de la versión 1.7 y seguir el progreso de los idiomas en proceso de traducción.</p>
+<div class="text-center"><a class="btn" style="background-color: #df0067;border: 1px solid #df0067;border-bottom: 3px solid #df0067;margin: 10px 0 20px;color: #fff" href="http://translators.prestashop.com/" target="_blank">¡Conoce a los traductores de PrestaShop!</a></div>
+<p>Si quieres ayudar a traducir PrestaShop y deseas más información, consulta la <a href="http://build.prestashop.com/assets/ext/PrestaShop_Translator_Guide.pdf" target="_blank">guía del traductor</a> (en inglés) o escríbenos a la dirección <a href="mailto:translation@prestashop.com">translation@prestashop.com</a> <img src="https://www.prestashop.com/blog/es/wp-includes/images/smilies/icon_smile.gif" alt=":)" class="wp-smiley" /> </p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/prestashop-1-7-ayuda-traducir-el-software/">PrestaShop 1.7: ayuda a traducir el software</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/prestashop-1-7-ayuda-traducir-el-software/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>¿Cómo llegar a liderar tu nicho de mercado? Entrevista con Skylantern</title>
+		<link>https://www.prestashop.com/blog/es/como-llegar-liderar-tu-nicho-de-mercado-entrevista-con-skylantern/</link>
+		<comments>https://www.prestashop.com/blog/es/como-llegar-liderar-tu-nicho-de-mercado-entrevista-con-skylantern/#comments</comments>
+		<pubDate>Tue, 20 Dec 2016 10:33:15 +0000</pubDate>
+		<dc:creator><![CDATA[mvalenza]]></dc:creator>
+				<category><![CDATA[Caso de éxito]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=15158</guid>
+		<description><![CDATA[<p>El crecimiento de una actividad suele implicar la expansión de la oferta a nuevos mercados o bien el posicionamiento estratégico en un nicho de mercado concreto a escala internacional. El vendedor online Skylantern apostó por la segunda opción. Tras un meticuloso trabajo en la oferta y el SEO de su tienda online, la firma se [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/como-llegar-liderar-tu-nicho-de-mercado-entrevista-con-skylantern/">¿Cómo llegar a liderar tu nicho de mercado? Entrevista con Skylantern</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>El crecimiento de una actividad suele implicar la expansión de la oferta a nuevos mercados o bien el posicionamiento estratégico en un nicho de mercado concreto a escala internacional.</p>
+<p><span id="more-15158"></span>El vendedor online Skylantern apostó por la segunda opción. Tras un meticuloso trabajo en la oferta y el SEO de su tienda online, la firma se convirtió en la número 1 del sector de los farolillos en Internet&#8230; ¡y mantiene esa posición desde 2007!</p>
+<p>Su especialización y sus precios competitivos les permiten llegar a un amplio público de particulares y profesionales, tanto en Francia como en otros países.</p>
+<p>En este vídeo, Benjamin Hamon, fundador y presidente de Skylantern, te cuenta las claves de su éxito. ¡Sigue sus valiosos consejos para abrirte camino en tu nicho de mercado!</p>
+<div class="g-ytsubscribe col-centered text-center" data-channelid="UCqDSbqSbkboMBARlYrhNa7g" data-layout="full" data-count="default"></div>
+<p><iframe width="700" height="394" src="https://www.youtube.com/embed/cOAcp8uUQQU?feature=oembed" frameborder="0" allowfullscreen></iframe></p>
+<div class="text-center"><a class="btn" style="background-color: #cd201f;border: 1px solid #b31217;border-bottom: 3px solid #b31217;margin: 20px 0 0;color: #fff" href="https://www.youtube.com/user/prestashop?utm_source=blog&amp;utm_medium=article&amp;utm_campaign=youtube&amp;utm_content=skylantern"> Ver más videos</a></div>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/como-llegar-liderar-tu-nicho-de-mercado-entrevista-con-skylantern/">¿Cómo llegar a liderar tu nicho de mercado? Entrevista con Skylantern</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/como-llegar-liderar-tu-nicho-de-mercado-entrevista-con-skylantern/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+		<item>
+		<title>Las siete claves del marketing posnavideño</title>
+		<link>https://www.prestashop.com/blog/es/las-siete-claves-del-marketing-posnavideno/</link>
+		<comments>https://www.prestashop.com/blog/es/las-siete-claves-del-marketing-posnavideno/#comments</comments>
+		<pubDate>Mon, 19 Dec 2016 19:06:45 +0000</pubDate>
+		<dc:creator><![CDATA[Los amigos de Preston]]></dc:creator>
+				<category><![CDATA[Consejos E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=15143</guid>
+		<description><![CDATA[<p>Los negocios de e-commerce se enfrentan después de las fiestas a un reto enorme: conseguir ventas cuando todo el mundo está harto de comprar. Tras el intenso bombardeo de ofertas y descuentos que empezó el Black Friday, ¿cómo animar a los clientes en plena resaca navideña? Hay varias estrategias para atraer compradores a tu sitio [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/las-siete-claves-del-marketing-posnavideno/">Las siete claves del marketing posnavideño</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Los negocios de e-commerce se enfrentan después de las fiestas a un reto enorme: conseguir ventas cuando todo el mundo está harto de comprar. Tras el intenso bombardeo de ofertas y descuentos que empezó el Black Friday, ¿cómo animar a los clientes en plena resaca navideña?</p>
+<p>Hay varias estrategias para atraer compradores a tu sitio web y evitar que las ventas caigan en picado: ofréceles novedades para el año nuevo, anímales a comprarse algo para ellos o consolida tu programa de fidelización con ofertas personalizadas.</p>
+<p>Aquí tienes varios trucos para conseguir resultados espectaculares después de las fiestas:<span id="more-15143"></span></p>
+<h2 style="color: #cf763a;">1. Liquida el stock navideño a precios irresistibles</h2>
+<p>Hay quien vive para estas rebajas. Y hasta los que no suelen comprar en esta época pueden animarse si la oferta es demasiado buena para dejarla pasar.</p>
+<p>Además, es una magnífica forma de deshacerte de artículos &#8220;con fecha de caducidad&#8221;, desde comida a modas de 2016. Los grandes descuentos atraen tráfico y visitantes que te ayudarán a limpiar las estanterías&#8230; y también pueden comprar algo más.</p>
+<h2 style="color: #cf763a;">2. Deja que tus clientes piensen en sí mismos</h2>
+<p>La Navidad es una época preciosa pero puede ser muy estresante con tanto planificar, cocinar, limpiar, comprar, viajar, lidiar con la familia, etc.</p>
+<p>También es el momento de pensar en los demás, así que después de las fiestas puede que tus clientes necesiten una pequeña dosis de &#8220;esto es para mí&#8221;.</p>
+<p>Dales una alegría ofreciéndoles algo que puedan regalarse y disfrutar.</p>
+<h2 style="color: #cf763a;">3. Cambia la perspectiva para el nuevo año</h2>
+<p>En enero, el desenfreno de las fiestas se transforma en el vivo retrato de la austeridad y la mesura. Con el cambio de año nos fijamos objetivos como dejar de fumar y beber, perder peso o comer más sano.</p>
+<p>Los anuncios que tus clientes perciban como una <a href="https://blog.kissmetrics.com/after-the-holiday-spike/" target="_blank">ayuda para cumplir sus propósitos de año nuevo</a> pueden dar muy buenos resultados. Los mensajes sobre salud, optimismo, renovación, cambios de imagen y planes para el futuro les vienen como anillo al dedo.</p>
+<h2 style="color: #cf763a;">4. Usa su historial de compras navideñas</h2>
+<p>Recuerda que durante los meses previos a la Navidad tus clientes habrán comprado regalos para otras personas. Para aplicar esta estrategia debes ofrecer rebajas o promociones que puedan compartir.</p>
+<p>Dirígete al cliente que haya adquirido el producto, pero déjale claro que la oferta la puede usar otra persona. Por ejemplo: si ha comprado una cafetera Keuring, envíale descuentos para productos como cápsulas de café, tazas o posavasos.</p>
+<p>¡Anima a tus clientes a compartir las ofertas con sus amigos! Así cubres todas las posibilidades, de compras para uno mismo a regalos&#8230; y puedes ampliar tu cartera de clientes si comparten la promoción.</p>
+<h2 style="color: #cf763a;">5. Deja opinar a tus clientes</h2>
+<p>Empieza el año apostando por la comunicación directa a través de una encuesta. Estos sondeos son una estupenda herramienta para relacionarte con los clientes&#8230; y mucho más:</p>
+<ul>
+<li>Logran que tus clientes piensen en tu negocio.</li>
+<li>Dan a los compradores un medio para expresarse, felicitarte o enviarte críticas.</li>
+<li>Te aportan información sobre lo que debes mejorar.</li>
+</ul>
+<p>A través de las encuestas puedes descubrir cosas como: qué piensan comprar este año, si les importa más el precio o la calidad, lo satisfechos que están con tus servicios o qué plataforma prefieren para recibir mensajes (redes sociales, SMS o email).</p>
+<h2 style="color: #cf763a;">6. Mima a tus clientes con SMS</h2>
+<p>Si hiciste una buena campaña de adhesión por SMS para las fiestas, es hora de cosechar los frutos. Si no la hiciste, es un buen momento para ponerse manos a la obra.</p>
+<p>No te olvides de tus clientes después de las fiestas. Sigue <a href="https://www.textmagic.com/blog/brands-use-sms-texting-in-business/" target="_blank">afianzando la relación con estas y otras ideas de marketing por SMS</a>:</p>
+<ul>
+<li><em>Mensajes personalizados.</em> Dale a tus mensajes un toque personal añadiendo el nombre del cliente. Recurre a sus preferencias de compra para enviarle ofertas de productos que puedan gustarle.</li>
+<li><em>Descuentos solo para miembros del club SMS.</em> Haz promociones exclusivas para clientes del club SMS: así verán las ventajas de haberse suscrito y tendrán un incentivo para quedarse.</li>
+<li><em>Trucos útiles.</em> Dales consejos, por ejemplo, sobre cómo cuidar el producto que han comprado.</li>
+<li><em>Atención al cliente.</em> Infórmales de que has recibido su devolución y mándales un mensaje para confirmar el reembolso. Si han decidido cambiar el producto, envíales un SMS para avisarles del envío.</li>
+</ul>
+<h2 style="color: #cf763a;">7. Utiliza las redes sociales</h2>
+<p>Las redes sociales son una plataforma de marketing ideal todo el año, también en esta época. Publica fotos y vídeos para promocionar tus descuentos y muestra tus nuevos productos. Una forma muy popular de conseguir visitas a tus perfiles es <a href="http://www.socialmediaexaminer.com/17-tips-for-successful-facebook-contests/" target="_blank">organizar concursos</a>, algo que la mayoría de los vendedores hace antes de las fiestas.</p>
+<p>Rompe moldes y prepara el tuyo para después de Navidad. Por ejemplo, pide a los participantes que publiquen sus propósitos de año nuevo para entrar en un sorteo.</p>
+<p>¿Ya has probado alguno de estos trucos de marketing posnavideño? ¿Tienes algún otro guardado en la chistera? No lo guardes solo para ti, ¡cuéntanoslo!</p>
+<p><em>Alexa Lemzy trabaja como especialista en atención al cliente y editora de contenidos en <a href="https://www.textmagic.com/" target="_blank">TextMagic</a>. En sus artículos escribe sobre recomendaciones de marketing y técnicas de atención al cliente, destinadas principalmente a pequeñas empresas y e-commerce. La encontrarás en <a href="https://twitter.com/Alexa_Lemzy" target="_blank">@Alexa_Lemzy</a>.</em></p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/las-siete-claves-del-marketing-posnavideno/">Las siete claves del marketing posnavideño</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/las-siete-claves-del-marketing-posnavideno/feed/</wfw:commentRss>
+		<slash:comments>1</slash:comments>
+		</item>
+		<item>
+		<title>Búsquedas locales en Google: todo lo que debes saber sobre el algoritmo “zarigüeya”</title>
+		<link>https://www.prestashop.com/blog/es/busquedas-locales-en-google-todo-lo-que-debes-saber-sobre-el-algoritmo-zarigueya/</link>
+		<comments>https://www.prestashop.com/blog/es/busquedas-locales-en-google-todo-lo-que-debes-saber-sobre-el-algoritmo-zarigueya/#comments</comments>
+		<pubDate>Fri, 16 Dec 2016 08:00:34 +0000</pubDate>
+		<dc:creator><![CDATA[Eva Lacalle]]></dc:creator>
+				<category><![CDATA[Tendencias E-commerce]]></category>
+
+		<guid isPermaLink="false">https://www.prestashop.com/blog/es/?p=15130</guid>
+		<description><![CDATA[<p>Que las búsquedas locales están siendo cada vez más importantes para Google no es ninguna novedad, y la última actualización en el algoritmo del buscador mantienen esta tendencia. Aunque aún no está confirmado por Google, desde septiembre los resultados en búsquedas locales no han dejado de bailar y los expertos en SEO ya hablan de [...]</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/busquedas-locales-en-google-todo-lo-que-debes-saber-sobre-el-algoritmo-zarigueya/">Búsquedas locales en Google: todo lo que debes saber sobre el algoritmo “zarigüeya”</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></description>
+				<content:encoded><![CDATA[<p>Que <strong>las búsquedas locales están siendo cada vez más importantes para Google</strong> no es ninguna novedad, y la última actualización en el algoritmo del buscador mantienen esta tendencia. Aunque <strong>aún no está confirmado por Google</strong>, desde septiembre los resultados en búsquedas locales no han dejado de bailar y <strong>los expertos en SEO ya hablan de un nuevo algoritmo</strong> de Google, al que le han puesto el nombre de <em>Possum</em>, que, en nuestro idioma, traduciríamos como zarigüeya. Aquí tienes toda la información para aprovechar los efectos de la última actualización de Google para tu página web.<span id="more-15130"></span></p>
+<h2 style="color:#80c99e">¿Por qué se llama Zarigüeya?</h2>
+<p>En primer lugar, queremos dejar claro que Google no ha confirmado ningún cambio de algoritmo local y, por lo tanto, <strong>el nombre</strong> no es oficial sino que <strong>ha sido elegido por los expertos en SEO</strong>. En concreto, ha sido <a href="https://twitter.com/philrozek" target="_blank">Phil Rozek</a>, experto en visibilidad local, el que sugirió el nombre cuando algunas empresas comenzaron a indicar que sus páginas web habían desaparecido de Google My Business, pero no, no estaban desaparecidas, sólo estaban “haciéndose el muerto” o, en inglés, “<em>playing possum</em>”.</p>
+<p>En definitiva, lo que estaba pasando es que <strong>Google estaba filtrando muchos de los resultados de Google My Business</strong>, por lo que sus dueños pensaban que, directamente, Google les había borrado la cuenta. Así que a los enlaces y contenido de calidad, se suma una nueva opción de cara al SEO local.</p>
+<h2 style="color:#80c99e">¿Cómo afecta el cambio?</h2>
+<p>Según parece, <strong>la actualización afecta</strong> directamente<strong> a los resultados locales y a los de Google Maps</strong>, modificando las web que muestra tanto en el 3-pack del resultado local (y que anteriormente eran 7) y los que se muestran cuando hacemos clic ver “más sitios”. Como siempre, este cambio es visible sobre todo en el SERP de Google en Estados Unidos, aunque se prevé que los cambios se vayan aplicando en el resto de países de forma paulatina, por lo que es probable que en breve veamos cambios en las diferentes páginas a medida que se implante la actualización, así que podemos anticiparnos a los cambios de SEO local.</p>
+<p>En concreto, y todo según lo observado en estas semanas, con el algoritmo <strong>se ha penalizado a las páginas que tienen el mismo dominio o teléfono en Google My Business y a páginas webs</strong> que no tienen su localización o en las que la localización no corresponde a la búsqueda que realizan los usuarios del negocio en Google.</p>
+<h2 style="color:#80c99e">¿A quién ha beneficiado?</h2>
+<p>Aunque algunas páginas se han visto perjudicadas en la búsqueda local, otras han salido ganando con el cambio de algoritmo y han visto como subían en el ranking del 3-pack de Google de un día para otro en determinadas búsquedas. Estos han sido algunos de los cambios a nivel SEO:</p>
+<h4 style="color:#80c99e">Mejoras para las empresas situadas en las zonas limítrofes de una ciudad</h4>
+<p>Cuando trabajamos SEO local en Google, las <strong>empresas que se encuentran en zonas limítrofes</strong> tienen problemas a la hora de rankear su web por el nombre de su ciudad ya que, a ojos de Google, a veces estas empresas estaban situadas fuera de la propia localidad donde querían posicionarse.</p>
+<p>Sin embargo, desde el cambio de algoritmo de Google estas páginas han visto como (las que tenían un buen trabajo de posicionamiento SEO detrás, claro) han subido de posiciones de manera automática, ya que Google empezaba a tenerlas en cuenta también para sus búsquedas locales.</p>
+<h4 style="color:#80c99e">Filtración en función de dirección para mejorar la experiencia de usuario</h4>
+<p>En el pasado, para los resultados a nivel local, Google utilizaba el dominio y el número de teléfono para filtrar aquellos resultados duplicados. Con la actualización del algoritmo también estudiará <strong>si hay varias cuentas dadas de alta con la misma dirección física Google las filtrará y sólo mostrará una de las páginas</strong>. Por ejemplo, imagínate un bufete de abogados especializado, cada uno, en una rama del derecho. Podrían tener una cuenta para el bufete en sí y luego una particular cada uno con su rama: matrimonial, laboral, penal, etc.; o un hospital privado donde cada médico especialista tenga su propia consulta. </p>
+<p>Al figurar todos en la misma dirección y con la misma página web, Google los considera contenido duplicado, por lo que, a nivel SEO, los filtra y muestra sólo una de las opciones ya que resulta más cómodo para los usuarios en su búsqueda local. Piensa por ejemplo si, como usuario, estás buscando un abogado, ¿a que te resultaría inútil que te mostrara tres o cuatro veces la misma dirección? </p>
+<p>Aunque esto era algo que ya hacía anteriormente Google, cada vez son más las empresas filtradas, ya que el buscador está afinando sus formas de conocer si una página pertenece, o no, a la misma web que otra, y penalizarlas o favorecerlas en los resultados de SEO local.</p>
+<h4 style="color:#80c99e">La ubicación física del usuario, cada vez más importante</h4>
+<p>Esto puede perjudicar al SEO de empresas que venden en un ámbito un poco más amplio al local (y, por el contrario, beneficiar a las más locales), aunque sea simplemente en regiones cercanas, y es que <strong>Google va a dar prioridad a aquellas empresas que estén más cerca del usuario</strong> a la hora de realizar su búsqueda. La SERP de Google será diferente en las búsquedas tipo “servicio+ciudad” incluso cuando realicemos la búsqueda con exacto contenido (las mismas palabras clave), si nos encontramos en ciudades diferentes.</p>
+<p>Por ejemplo, si realizamos la búsqueda “abogados+Madrid”, los resultados serán diferentes si hacemos esta búsqueda desde la propia ciudad de Madrid o si la hacemos, por ejemplo, en Barcelona, aunque pongamos exactamente los mismos términos de búsqueda, ya que Google va a tener muy en cuenta la IP del usuario para conocer dónde se encuentra.</p>
+<h4 style="color:#80c99e">Ligeras variaciones de la palabra clave ofrecen diferentes resultados</h4>
+<p>Antes de la actualización del algoritmo, si buscábamos “abogados en Madrid”, “Madrid abogados” o “Abogado Madrid”, por ejemplo, los resultados eran si no iguales, muy similares, ofreciendo las mismas web.<br />
+Sin embargo, desde el cambio del algoritmo de Google <strong>los resultados fluctúan incluso con búsqueda tan similar y las web del 3-pack varían</strong>. Esto puede ser señal de que Google está realizando cambios aún en su algoritmo para testarlo y mejorarlo</p>
+<h4 style="color:#80c99e">Los resultados locales, cada vez más independientes de los resultados orgánicos</h4>
+<p>Parece ser que, aunque Google considere que una página está duplicada y, por lo tanto, la filtra de su SERP, sí puede aparecer en las búsquedas locales. Además, <strong>algunas web pueden aparecer</strong> por duplicado,<strong> tanto en los resultados normales como en el 3-pack de las búsquedas locales</strong>, ya que parecen funcionar por separado, lo que supone una doble visibilidad para la empresa de cara a los usuarios de Google.</p>
+<p>La entrada <a rel="nofollow" href="https://www.prestashop.com/blog/es/busquedas-locales-en-google-todo-lo-que-debes-saber-sobre-el-algoritmo-zarigueya/">Búsquedas locales en Google: todo lo que debes saber sobre el algoritmo “zarigüeya”</a> aparece primero en <a rel="nofollow" href="https://www.prestashop.com/blog/es">ES - Blog Ecommerce de PrestaShop</a>.</p>
+]]></content:encoded>
+			<wfw:commentRss>https://www.prestashop.com/blog/es/busquedas-locales-en-google-todo-lo-que-debes-saber-sobre-el-algoritmo-zarigueya/feed/</wfw:commentRss>
+		<slash:comments>2</slash:comments>
+		</item>
+	</channel>
+</rss>
