@@ -1,7 +1,44 @@
+@font-face {
+    font-family: 'salsa';
+    src: url("../fonts/salsa-regular.ttf") format("truetype"),
+    		 url('../fonts/salsa-regular-webfont.woff2') format('woff2'),
+         url('../fonts/salsa-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+/*
+@font-face {
+    font-family: 'pacifico';
+    src: url("../fonts/pacifico.ttf") format("truetype"),
+    		 url('../fonts/pacifico.woff2') format('woff2'),
+         url('../fonts/pacifico.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'courgette';
+    src: url("../fonts/courgette-regular.ttf") format("truetype"),
+    		 url('../fonts/courgette-regular-webfont.woff2') format('woff2'),
+         url('../fonts/courgette-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+*/
+
 body {
 	font-size: 16px;
 	line-height: 16px;
 	position: relative;
+	font-family: 'salsa', cursive;
+	/*
+	font-family: 'pacifico', cursive;
+	font-family: 'courgette', cursive;
+	*/
 }
 
 header {
@@ -28,11 +65,14 @@ header {
 
 .navbar-default .navbar-nav>li>a {
 	line-height: 1.563em;
+	font-size: 1em;
+	color: black;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
 	text-decoration: underline;
 	background-color: white;
+	color: black;
 }
 
 
