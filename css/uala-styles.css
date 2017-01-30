@@ -18,7 +18,6 @@
     font-style: normal;
 
 }
-*/
 
 @font-face {
     font-family: 'pacifico';
@@ -29,16 +28,26 @@
     font-style: normal;
 
 }
+*/
+@font-face {
+    font-family: 'nixieone';
+    src: url("../fonts/NixieOne2.ttf") format("truetype");
+    font-weight: normal;
+    font-style: normal;
+
+}
 
 body {
 	font-size: 16px;
 	line-height: 16px;
 	position: relative;
-	font-family: 'pacifico', cursive;
+	font-family: 'nixieone', cursive;
 	/*
+	font-family: 'pacifico', cursive;
 	font-family: 'salsa', cursive;
 	font-family: 'courgette', cursive;
 	*/
+	font-weight: bold;
 }
 
 header {
@@ -81,6 +90,7 @@ header {
 	line-height: 2.5em;
 	font-size: 1em;
 	color: #333;
+	font-weight: bold;
 }
 
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
@@ -122,14 +132,17 @@ header {
 	position: relative;
 	width: 300px;
 	margin: 0 auto;
+	cursor: pointer;
 }
 
 .product img:hover {
 	/*display: none;*/
 	opacity: 0.4;
+	cursor: pointer;
 }
 .product img:hover + .product-info{
 	display: inline-block;
+	cursor: pointer;
 }
 
 /* Footer */
@@ -140,6 +153,7 @@ header {
   padding: 1em 0;
   background: #ddd;
   border-top: 1px solid #888;
+	font-weight: bold;
 }
 .footer-brand p{
 	margin: 0;
