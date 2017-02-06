@@ -278,3 +278,102 @@ header {
 		margin: 0.5em 0;
 	}
 }
+
+/*Estilos Base*/
+.contenedor-img {
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    background: #fff;
+}
+    .contenedor-img .cover,.contenedor-img .contenido {
+        width: 300px;
+        height: 300px;
+        position: absolute;
+        overflow: hidden;
+        top: 0;
+        left: 0
+    }
+    .contenedor-img img {
+        display: block;
+        position: relative;
+       
+    }
+    .contenedor-img h2 {
+        text-transform: uppercase;
+        color: #fff;
+        text-align: center;
+        position: relative;
+        font-size: 17px;
+        padding: 10px;
+        background: rgba(0, 0, 0, 0.9);
+        margin: 20px 0 0 0
+    }
+    .contenedor-img p {    
+        font-size: 12px;
+        position: relative;
+        color: #333;
+        padding: 10px 20px 10px;
+        text-align: center
+        font-weight: bold;
+    }
+    .contenedor-img a.link {
+        display: inline-block;
+        text-decoration: none;
+        padding: 7px 14px;
+        background: #222;
+        color: #fff;
+        text-transform: uppercase;
+        box-shadow: 0 0 1px #000
+    }
+        .contenedor-img a.link:hover {
+            box-shadow: 0 0 5px #000
+        }
+
+
+/*Ejemplo 1*/
+.content-product img {
+transition: all 0.2s linear;
+}
+.content-product .cover {
+opacity: 0;
+background-color: rgba(204,204,204, 0.7);
+transition: all 0.3s ease-in-out;
+}
+.content-product h2 {
+transform: translateX(-300px);/*Desplazamos a la izquierda*/
+opacity: 0;
+transition: all 0.7s ease-in-out;
+}
+.content-product p {
+transform: translateX(300px);/*Desplazamos a la derecha*/
+opacity: 0;
+transition: all 0.4s linear;
+}
+.content-product a.link{
+opacity: 0;
+transition: all 0.4s ease-in-out;
+transform: translateY(150px)/*Desplazamos para abajo*/
+}
+.content-product:hover img {
+transform: scale(1.1);/*Damos un ligero zoom a la imagen*/
+}
+.content-product:hover .cover {
+opacity: 1;
+}
+.content-product:hover h2,
+.content-product:hover p,
+.content-product:hover a.link {
+opacity: 1;
+transform: translateX(0px);/*Regresamos a las posiciones originales*/
+}
+.content-product:hover p {
+transition-delay: 0.1s;
+}
+.content-product:hover a.link {
+transition-delay: 0.2s; /*Aplicamos un pequeño retardo para que se muestre al final*/
+transform: translateY(0px);
+}
