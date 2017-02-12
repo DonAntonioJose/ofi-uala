@@ -1,52 +1,27 @@
 /*
 @font-face {
-    font-family: 'salsa';
-    src: url("../fonts/salsa-regular.ttf") format("truetype"),
-    		 url('../fonts/salsa-regular-webfont.woff2') format('woff2'),
-         url('../fonts/salsa-regular-webfont.woff') format('woff');
+    font-family: 'nixieone';
+    src: url("../fonts/nixieoneV2.ttf") format("truetype"),
+    		 url('../fonts/nixieonev2.woff2') format('woff2'),
+         url('../fonts/nixieonev2.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'courgette';
-    src: url("../fonts/courgette-regular.ttf") format("truetype"),
-    		 url('../fonts/courgette-regular-webfont.woff2') format('woff2'),
-         url('../fonts/courgette-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'pacifico';
-    src: url("../fonts/pacifico.ttf") format("truetype"),
-    		 url('../fonts/pacifico.woff2') format('woff2'),
-         url('../fonts/pacifico.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
 }
 */
+
 @font-face {
-    font-family: 'nixieone';
-    src: url("../fonts/NixieOne2.ttf") format("truetype");
+    font-family: 'typew';
+    src: url("../fonts/TravelingTypewriter.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
-
 }
+
 
 body {
 	font-size: 16px;
 	line-height: 16px;
 	position: relative;
-	font-family: 'nixieone', cursive;
-	/*
-	font-family: 'pacifico', cursive;
-	font-family: 'salsa', cursive;
-	font-family: 'courgette', cursive;
-	*/
+	font-family: 'typew', cursive;
 	font-weight: bold;
 	height: 100%;
 	min-height: calc(100vh - 4.375em);
@@ -440,6 +415,25 @@ transform: translateY(0px);
 	background-repeat: no-repeat;
 	background-size: cover;
 }
+
+/* Shop */
+.virtual-shop {
+	font-weight: bold !important;
+}
+
+.ecwid-productBrowser-subcategories-mainTable {
+	display: none !important;
+}
+
+.ecwid {
+	text-align: right !important;
+}
+
+.ecwid-minicart {
+
+}
+
+
 
 @media (max-width: 991px) {
 	.about-us .primary-content::after {
