@@ -429,11 +429,103 @@ transform: translateY(0px);
 	text-align: right !important;
 }
 
-.ecwid-minicart {
-
+.horizontal-menu {
+	float: left !important;
+	border: 0 !important;
 }
 
+.ecwid-results-topPanel-controlsPanel {
+	float: left !important;
+}
 
+.ecwid-results-topPanel-viewAsPanel {
+	display: none !important;
+}
+
+.horizontal-menu-item {
+	margin-right: 1em !important;
+}
+
+.horizontal-menu-item a {
+	border: 1px solid #333 !important;
+}
+
+.horizontal-menu-item span {
+	color: #333 !important;
+	font-weight: bold !important;
+}
+
+.horizontal-menu-item--hover>a {
+	background: #333 !important;
+}
+
+.horizontal-menu-item--hover span{
+	color: #fff !important;
+	font-weight: normal !important;
+}
+
+.gwt-Label {
+	font-size: 1.455em !important;
+	font-weight: bold !important;
+}
+
+.gwt-ListBox {
+	font-size: 1.455em !important;
+	font-weight: bold !important;
+}
+
+.ecwid-productBrowser-productNameLink a {
+	font-weight: bold !important;
+}
+
+.ecwid-productBrowser-price-value {
+	font-weight: bold !important;
+}
+
+.horizontal-menu--desktop {
+	display: block !important;
+}
+
+.horizontal-mobile {
+	display: none !important;
+}
+
+.ecwid-productBrowser-cart-hint {
+	font-weight: bold !important;
+	color: #333 !important;
+	font-size: 0.9em !important;
+}
+
+.ecwid-btn--primary {
+	color: #333 !important;
+	background: #fff !important;
+	border: 1px solid #333 !important;
+	font-size: 0.9em !important;
+	font-weight: bold !important;
+}
+
+.ecwid-btn--primary:hover {
+	background: #333 !important;
+	color: #fff !important;
+	font-weight: normal !important;
+}
+
+.ecwid-btn--secondary {
+	color: #333 !important;
+	font-size: 0.9em !important;
+	font-weight: bold !important;
+	border: 1px solid #333 !important;
+}
+
+.ecwid-btn--secondary:hover {
+	background: #333 !important;
+	color: #fff !important;
+	font-weight: normal !important;
+}
+
+.ecwid-poweredBy {
+	display: none !important;
+}
 
 @media (max-width: 991px) {
 	.about-us .primary-content::after {
@@ -462,5 +554,8 @@ transform: translateY(0px);
 	.footer-legal {
 		text-align: center;
 		margin: 0.5em 0;
+	}
+	.ecwid {
+		text-align: center !important;
 	}
 }
