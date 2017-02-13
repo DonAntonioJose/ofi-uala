@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta chartset="UTF-8">
+  <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <title>Uala - Contacto</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/uala-styles.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="text-hide" href="./index.html">Uala</a>
+          <a class="navbar-brand" href="./index.html">
+            <img alt="Uala" src="./images/uala-logo-transp.png">
+          </a>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="./about-us.html">¡Hola!</a></li>
+            <li><a href="./contact.html">¡Cuéntanos!</a></li>
+          </ul>
+          <ul class="nav navbar-nav navbar-right">
+            <li class="active"><a href="./virtualshop.html">¡A por tu uãla! Shop<span class="sr-only">(current)</span></a></li>
+          </ul>
+          <ul class="nav navbar-nav">
+            <li><a href="./news.html">Uãlalea</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+  </header>
+  <section class="main container">
+    <h2> Contacto </h2>
+	
+
+	<form action="sendbymail.php" method="post" role="contact_form" >
+
+		<div class="form-group">
+			<label for="contact_Name">Nombre </label>
+			<input type="text" class="form-control" id="contact_Name"
+					placeholder="Introduce tu nombre" required
+					name="contact_Name"> </input>
+					
+		</div>
+		<div class="form-group">
+			<label for="contact_Email">E-m@il</label>
+			<input type="email" class="form-control" id="contact_Email" 
+				   placeholder="E-m@il" required
+				   name="contact_Email"> </input>
+		</div>
+		<div class="form-group">
+			<label for="contact_Comment">Comentario</label>
+			<input type="text" class="form-control" id="contact_Comment" 
+				   placeholder="Comentario" required
+				   name="contact_Comment"> </input>
+		</div>
+		
+  <button type="submit" class="btn btn-default">Enviar</button>
+</form>
+
+	
+	
+  </section>
+  <footer>
+    <div class="footer">
+      <div class="col-xs-12 col-sm-4 footer-brand">
+        <p>© 2017 Uala. <span class="slogan">Since 1990</span></p>
+      </div>
+      <div class="col-xs-12 col-sm-4 footer-social">
+        <ul class="social">
+          <li> <a href="#"> <i class="instagram"> </i> </a> </li>
+          <li> <a href="#"> <i class="facebook"> </i> </a> </li>
+        </ul>
+      </div>
+      <div class="col-xs-12 col-sm-4 footer-legal">
+        <div class="content-legal">
+          <a class="faq" href="#">FAQ</a>
+          <a class="term-legal" href="#">Términos Legales</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="  crossorigin="anonymous"></script>
+  <script src="js/uala.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
