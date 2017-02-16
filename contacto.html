@@ -29,7 +29,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a href="./hola.html">¡Hola!</a></li>
-            <li><a href="./noticias.html">Uãlalea</a></li>            
+            <li><a href="./noticias.html">Uãlalea</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
             <li><a href="./tienda.html">¡A por tu uãla! Shop</a></li>
@@ -43,6 +43,35 @@
   </header>
   <section class="main container">
     <h2> Contacto </h2>
+  
+
+  <form action="sendbymail.php" method="post" role="contact_form" >
+
+    <div class="form-group">
+      <label for="contact_Name">Nombre </label>
+      <input type="text" class="form-control" id="contact_Name"
+          placeholder="Introduce tu nombre" required
+          name="contact_Name"> </input>
+          
+    </div>
+    <div class="form-group">
+      <label for="contact_Email">E-m@il</label>
+      <input type="email" class="form-control" id="contact_Email" 
+           placeholder="E-m@il" required
+           name="contact_Email"> </input>
+    </div>
+    <div class="form-group">
+      <label for="contact_Comment">Comentario</label>
+      <input type="text" class="form-control" id="contact_Comment" 
+           placeholder="Comentario" required
+           name="contact_Comment"> </input>
+    </div>
+    
+  <button type="submit" class="btn btn-default">Enviar</button>
+</form>
+
+  
+  
   </section>
   <footer>
     <div class="footer">
