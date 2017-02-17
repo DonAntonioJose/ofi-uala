@@ -41,37 +41,40 @@
       </div><!-- /.container-fluid -->
     </nav>
   </header>
-  <section class="main container">
-    <h2> Contacto </h2>
-  
-
-  <form action="sendbymail.php" method="post" role="contact_form" >
-
-    <div class="form-group">
-      <label for="contact_Name">Nombre </label>
-      <input type="text" class="form-control" id="contact_Name"
-          placeholder="Introduce tu nombre" required
-          name="contact_Name"> </input>
-          
-    </div>
-    <div class="form-group">
-      <label for="contact_Email">E-m@il</label>
-      <input type="email" class="form-control" id="contact_Email" 
-           placeholder="E-m@il" required
-           name="contact_Email"> </input>
-    </div>
-    <div class="form-group">
-      <label for="contact_Comment">Comentario</label>
-      <input type="text" class="form-control" id="contact_Comment" 
-           placeholder="Comentario" required
-           name="contact_Comment"> </input>
-    </div>
-    
-  <button type="submit" class="btn btn-default">Enviar</button>
-</form>
-
-  
-  
+  <section class="main container contact">
+    <div class="wrap">
+      <div class="first-element">
+        <article class="col-xs-12 col-md-6">
+        <img src="./images/contact.png" alt="contacto">
+          <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit.</p>
+        </article>
+      </div>
+      <div class="second-element">
+        <article class="col-xs-12 col-md-6">
+          <form action="sendbymail.php" method="post" role="contact_form" >
+            <div class="form-group">
+              <label for="contact_Name">Nombre </label>
+              <input type="text" class="form-control" id="contact_Name"
+                  placeholder="Introduce tu nombre" required
+                  name="contact_Name"> </input> 
+            </div>
+            <div class="form-group">
+              <label for="contact_Email">E-m@il</label>
+              <input type="email" class="form-control" id="contact_Email" 
+                   placeholder="E-m@il" required
+                   name="contact_Email"> </input>
+            </div>
+            <div class="form-group">
+              <label for="contact_Comment">Comentario</label>
+              <textarea type="textarea" class="form-control" id="contact_Comment" 
+                   placeholder="Comentario" required
+                   name="contact_Comment"> </textarea>
+            </div>  
+            <button type="submit" class="btn btn-default">Enviar</button>
+          </form>
+        </article>
+      </div>
+    </div>  
   </section>
   <footer>
     <div class="footer">

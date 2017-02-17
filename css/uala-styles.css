@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'nixieone';
-    src: url("../fonts/nixieone.ttf") format("truetype"),
-    		 url('../fonts/nixieone.woff2') format('woff2'),
-         url('../fonts/nixieone.woff') format('woff');
+    src: url("../fonts/nixieoneV2.ttf") format("truetype"),
+    		 url('../fonts/nixieoneV2.woff2') format('woff2'),
+         url('../fonts/nixieoneV2.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -35,8 +35,10 @@ header {
 }
 
 .main {
+	    min-height: calc(100vh - 8.25em);
+    height: 100%;
 	margin-top: 4.375em;
-	margin-bottom: 3.875em;
+	/*margin-bottom: 3.875em;*/
 }
 
 .center {
@@ -365,7 +367,7 @@ transform: translateY(0px);
 
 
 .wrap {
-	margin-top: 3.125em;
+	margin: 3.125em 0;
 	background-color: #EFD1C6;
 	border: 1px solid #888;
 	display: inline-block;
@@ -552,6 +554,19 @@ transform: translateY(0px);
 	height: calc(100vh - 70px);
 }
 
+.contact .wrap {
+	background-color: transparent;
+	border: 0;
+}
+
+.contact .first-element {
+	line-height: 1.5em;
+}
+
+.contact .first-element img {
+	width: 50%;
+}
+
 @media (max-width: 991px) {
 	.about-us .primary-content::after {
 		content: '';
@@ -638,4 +653,23 @@ transform: translateY(0px);
 	.about-us .secondary-content div {
 		height: 50vh;
 	}
+
+	.contenedor-img {
+    width: 260px;
+    height: 260px;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+    background: #fff;
+	}
+
+	.contenedor-img img {
+		width: 100%;
+	}
+
+  .contenedor-img .cover,.contenedor-img .contenido {
+    width: 260px;
+    height: 260px;
+  }
 }
