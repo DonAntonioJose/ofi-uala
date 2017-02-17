@@ -45,7 +45,7 @@
     <div class="wrap">
       <div class="first-element">
         <article class="col-xs-12 col-md-6">
-        <img src="./images/contact.png" alt="contacto">
+        <img src="./images/contact.jpg" alt="contacto">
           <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit.</p>
         </article>
       </div>
@@ -83,8 +83,8 @@
       </div>
       <div class="col-xs-12 col-sm-4 footer-social">
         <ul class="social">
-          <li> <a href="#"> <i class="instagram"> </i> </a> </li>
-          <li> <a href="#"> <i class="facebook"> </i> </a> </li>
+          <li> <a href="https://www.instagram.com/ualasince1990" target="_blank"> <i class="instagram"> </i> </a> </li>
+          <li> <a href="https://www.facebook.com/ualasince1990" target="_blank"> <i class="facebook"> </i> </a> </li>
         </ul>
       </div>
       <div class="col-xs-12 col-sm-4 footer-legal">
