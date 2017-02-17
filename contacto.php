@@ -44,13 +44,13 @@
   <section class="main container contact">
     <div class="wrap">
       <div class="first-element">
-        <article class="col-xs-12 col-md-6">
+        <article class="col-xs-12 col-md-5">
         <img src="./images/contact.jpg" alt="contacto">
-          <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit.</p>
         </article>
       </div>
       <div class="second-element">
-        <article class="col-xs-12 col-md-6">
+        <article class="col-xs-12 col-md-7">
+          <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit.</p>
           <form action="sendbymail.php" method="post" role="contact_form" >
             <div class="form-group">
               <label for="contact_Name">Nombre </label>

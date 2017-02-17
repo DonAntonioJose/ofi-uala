@@ -560,11 +560,34 @@ transform: translateY(0px);
 }
 
 .contact .first-element {
-	line-height: 1.5em;
+	text-align: center;
 }
 
 .contact .first-element img {
-	width: 50%;
+	width: 180px;
+}
+
+.contact .second-element p {
+	line-height: 1.5em;
+	margin-bottom: 2em;
+}
+
+.contact .second-element textarea.form-control {
+	height: 90px;
+	resize: none;
+}
+
+.contact .btn-default {
+	color: #333;
+	background: #fff;
+	border: 1px solid #333;
+	font-size: 0.9em;
+	font-weight: bold;
+}
+.contact .btn-default:hover {
+	background: #333;
+	color: #fff;
+	font-weight: normal;
 }
 
 @media (max-width: 991px) {
@@ -583,6 +606,9 @@ transform: translateY(0px);
 	.about-us .primary-content {
 		padding: 0 2em;
 		text-align: center;
+	}
+	.contact .first-element img {
+		display: none;
 	}
 }
 
