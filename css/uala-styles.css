@@ -530,7 +530,7 @@ transform: translateY(0px);
 }
 
 .first-slide {
-	background-image: url('../images/pano1.png');
+	background-image: url('../images/pano1.jpg');
 	background-size: cover;
 	background-position: center;
 	display: block;
@@ -538,7 +538,7 @@ transform: translateY(0px);
 	height: calc(100vh - 70px);
 }
 .second-slide {
-	background-image: url('../images/pano2.png');
+	background-image: url('../images/pano2.jpg');
 	background-size: cover;
 	background-position: center;
 	display: block;
@@ -546,7 +546,7 @@ transform: translateY(0px);
 	height: calc(100vh - 70px);
 }
 .third-slide {
-	background-image: url('../images/pano3.png');
+	background-image: url('../images/pano3.jpg');
 	background-size: cover;
 	background-position: center;
 	display: block;
