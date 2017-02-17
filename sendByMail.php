@@ -1,6 +1,5 @@
 <?php
 
-
 $email_to = "afgfrias@gmail.com";
 $email_subject = "Contacto desde el sitio web";
 $contact_Email = $_POST['contact_Email'];
@@ -26,7 +25,7 @@ if(!isset($_POST['contact_Name']) ||
 	'X-Mailer: PHP/' . phpversion();
 
 	@mail($email_to, $email_subject, $email_message, $headers);
-
-	header('Location: /ofi-uala/index.html');
+		
+	header('Location: /index.php');
 }
 ?>
