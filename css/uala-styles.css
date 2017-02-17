@@ -1,27 +1,27 @@
-/*
 @font-face {
     font-family: 'nixieone';
-    src: url("../fonts/nixieoneV2.ttf") format("truetype"),
-    		 url('../fonts/nixieonev2.woff2') format('woff2'),
-         url('../fonts/nixieonev2.woff') format('woff');
+    src: url("../fonts/nixieone.ttf") format("truetype"),
+    		 url('../fonts/nixieone.woff2') format('woff2'),
+         url('../fonts/nixieone.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
-*/
 
+/*
 @font-face {
     font-family: 'typew';
     src: url("../fonts/TravelingTypewriter.ttf") format("truetype");
     font-weight: normal;
     font-style: normal;
 }
+*/
 
 
 body {
 	font-size: 16px;
 	line-height: 16px;
 	position: relative;
-	font-family: 'typew', cursive;
+	font-family: 'nixieone', cursive;
 	font-weight: bold;
 	height: 100%;
 	min-height: calc(100vh - 4.375em);
@@ -53,7 +53,7 @@ header {
 	margin-bottom: 0;
 	background-color: white;
 	border: 0;
-	border-bottom: 1px;
+	border-bottom: 1px solid #888;
 }
 
 .navbar-brand {
@@ -87,7 +87,7 @@ header {
 
 /* Carousel */
 .uala-carousel {
-	margin-top: 3.438em;
+	margin-top: 4.375em;
 }
 
 .carousel-inner>.item>a>img,
@@ -400,7 +400,7 @@ transform: translateY(0px);
   margin-right: -14px;
   position: absolute;
   right: 0;
-  top: 50%;
+  top: calc (50% - 12px);
   z-index: 99;
 }
 .about-us .secondary-content {
@@ -527,6 +527,31 @@ transform: translateY(0px);
 	display: none !important;
 }
 
+.first-slide {
+	background-image: url('../images/pano1.png');
+	background-size: cover;
+	background-position: center;
+	display: block;
+	width: 100%;
+	height: calc(100vh - 70px);
+}
+.second-slide {
+	background-image: url('../images/pano2.png');
+	background-size: cover;
+	background-position: center;
+	display: block;
+	width: 100%;
+	height: calc(100vh - 70px);
+}
+.third-slide {
+	background-image: url('../images/pano3.png');
+	background-size: cover;
+	background-position: center;
+	display: block;
+	width: 100%;
+	height: calc(100vh - 70px);
+}
+
 @media (max-width: 991px) {
 	.about-us .primary-content::after {
 		content: '';
@@ -543,6 +568,11 @@ transform: translateY(0px);
 }
 
 @media (max-width: 767px) {
+	.about-us .primary-content {
+		padding: 0 2em;
+		text-align: center;
+	}
+
 	.footer-brand {
 		text-align: center;
 		margin: 0.5em 0;
@@ -557,5 +587,56 @@ transform: translateY(0px);
 	}
 	.ecwid {
 		text-align: center !important;
+	}
+
+	.navbar-nav {
+	margin: 0 -15px;
+	}
+	.nav li {
+		border-bottom: 1px solid #888;
+	}
+	.nav.navbar-right li {
+		border-bottom: 0;
+	}
+	.navbar-toggle {
+		margin-top: 0.7em;
+		margin-bottom: 0.7em;
+	}
+
+	.navbar-toggle .icon-bar {
+		display: block;
+		width: 30px;
+		height: 2px;
+		border-radius: 0px;
+		margin: 6px 0;
+	}
+	.navbar-default .navbar-toggle {
+		border: 0;
+	}
+	.navbar-default .navbar-toggle:hover {
+		background-color: #fff;
+	}
+	.navbar-default .navbar-toggle:focus {
+		background-color: #fff;
+	}
+	.navbar-default .navbar-toggle .icon-bar {
+		background-color: #333;
+	}
+}
+
+@media (max-width: 479px) {
+	.about-us .primary-content {
+		height: 50vh;
+		font-size: 0.75em;
+		padding: 2em;
+		text-align: left;
+	}
+
+	.about-us .secondary-content {
+		padding: 0;
+		height: 50vh;
+	}
+	.about-us .secondary-content div {
+		height: 50vh;
 	}
 }

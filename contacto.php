@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <?php header("Content-type: text/html; charset=utf8"); ?>
   <meta chartset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>Uala - Noticias</title>
+  <title>Uala - Contacto</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/uala-styles.css">
   <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/png" />
@@ -20,8 +21,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="text-hide" href="./home.html">Uala</a>
-          <a class="navbar-brand" href="./home.html">
+          <a class="text-hide" href="./index.php">Uala</a>
+          <a class="navbar-brand" href="./index.php">
             <img alt="Uala" src="./images/uala-logo-transp.png">
           </a>
         </div>
@@ -29,21 +30,48 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="./hola.html">¡Hola!</a></li>
-            <li class="active"><a href="./noticias.html">Uãlalea</a></li>            
+            <li><a href="./hola.php">¡Hola!</a></li>
+            <li><a href="./noticias.php">Uãlalea</a></li>
+            <li class="active"><a href="./contacto.php">¡Cuéntanos!</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="./tienda.html">¡A por tu uãla! Shop</a></li>
-          </ul>
-          <ul class="nav navbar-nav">
-            <li><a href="./contacto.html">¡Cuéntanos!</a></li>
+            <li><a href="./tienda.php">¡A por tu uãla! Shop</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
   </header>
   <section class="main container">
-    <h2> Noticias </h2>
+    <h2> Contacto </h2>
+  
+
+  <form action="sendbymail.php" method="post" role="contact_form" >
+
+    <div class="form-group">
+      <label for="contact_Name">Nombre </label>
+      <input type="text" class="form-control" id="contact_Name"
+          placeholder="Introduce tu nombre" required
+          name="contact_Name"> </input>
+          
+    </div>
+    <div class="form-group">
+      <label for="contact_Email">E-m@il</label>
+      <input type="email" class="form-control" id="contact_Email" 
+           placeholder="E-m@il" required
+           name="contact_Email"> </input>
+    </div>
+    <div class="form-group">
+      <label for="contact_Comment">Comentario</label>
+      <input type="text" class="form-control" id="contact_Comment" 
+           placeholder="Comentario" required
+           name="contact_Comment"> </input>
+    </div>
+    
+  <button type="submit" class="btn btn-default">Enviar</button>
+</form>
+
+  
+  
   </section>
   <footer>
     <div class="footer">

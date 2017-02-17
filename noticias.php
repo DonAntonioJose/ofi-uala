@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <?php header("Content-type: text/html; charset=utf8"); ?>
   <meta chartset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>Uala - Quienes somos</title>
+  <title>Uala - Noticias</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/uala-styles.css">
   <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/png" />
@@ -20,8 +21,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="text-hide" href="./home.html">Uala</a>
-          <a class="navbar-brand" href="./home.html">
+          <a class="text-hide" href="./index.php">Uala</a>
+          <a class="navbar-brand" href="./index.php">
             <img alt="Uala" src="./images/uala-logo-transp.png">
           </a>
         </div>
@@ -29,37 +30,19 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="./hola.html">¡Hola!</a></li>
-            <li><a href="./noticias.html">Uãlalea</a></li>            
+            <li><a href="./hola.php">¡Hola!</a></li>
+            <li class="active"><a href="./noticias.php">Uãlalea</a></li>            
+            <li><a href="./contacto.php">¡Cuéntanos!</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="./tienda.html">¡A por tu uãla! Shop</a></li>
-          </ul>
-          <ul class="nav navbar-nav">
-            <li><a href="./contacto.html">¡Cuéntanos!</a></li>
+            <li><a href="./tienda.php">¡A por tu uãla! Shop</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
   </header>
-  <section class="main container about-us">
-    <!--<h2> ¡Hola! </h2> -->
-    <div class="wrap">
-      <article class="col-xs-12 col-md-6 primary-content">
-        <div class="content">
-          <p>Somos una marca joven, entusiasta y creativa.</p>
-          <p>Cuidamos los pequeños detalles, por ello somos fieles al "handmade" en Ubrique.</p>
-          <p>Queremos hacerte complice de nuestros sueños.</p>
-          <p>Crecer, evolucionar y mejorar contigo.</p>
-          <p class="center">¿Te unes a nuestro reto?</p>
-          <p class="center"><span>Think, design and make it happen</span></p>
-        </div>
-      </article>
-      <article class="col-xs-12 col-md-6 secondary-content">
-        <div>
-        </div>
-      </article>
-    </div>
+  <section class="main container">
+    <h2> Noticias </h2>
   </section>
   <footer>
     <div class="footer">

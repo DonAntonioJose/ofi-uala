@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <?php header("Content-type: text/html; charset=utf8"); ?>
   <meta chartset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>Uala - Tienda virtual</title>
@@ -20,8 +21,8 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="text-hide" href="./home.html">Uala</a>
-          <a class="navbar-brand" href="./home.html">
+          <a class="text-hide" href="./index.php">Uala</a>
+          <a class="navbar-brand" href="./index.php">
             <img alt="Uala" src="./images/uala-logo-transp.png">
           </a>
         </div>
@@ -29,14 +30,12 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li><a href="./hola.html">¡Hola!</a></li>
-            <li><a href="./noticias.html">Uãlalea</a></li>            
+            <li><a href="./hola.php">¡Hola!</a></li>
+            <li><a href="./noticias.php">Uãlalea</a></li>            
+            <li><a href="./contacto.php">¡Cuéntanos!</a></li>
           </ul>
           <ul class="nav navbar-nav navbar-right">
-            <li class="active"><a href="./tienda.html">¡A por tu uãla! Shop</a></li>
-          </ul>
-          <ul class="nav navbar-nav">
-            <li><a href="./contacto.html">¡Cuéntanos!</a></li>
+            <li class="active"><a href="./tienda.php">¡A por tu uãla! Shop</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
