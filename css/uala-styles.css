@@ -400,7 +400,7 @@ transform: translateY(0px);
   margin-right: -14px;
   position: absolute;
   right: 0;
-  top: calc (50% - 12px);
+  top: 50%;
   z-index: 99;
 }
 .about-us .secondary-content {
@@ -563,16 +563,15 @@ transform: translateY(0px);
 	  margin-right: 0;
 	  margin-top: 0;
 	  top: 100%;
-	  left: 50%;
+	  left: calc(50% - 12px);
 	}
-}
-
-@media (max-width: 767px) {
 	.about-us .primary-content {
 		padding: 0 2em;
 		text-align: center;
 	}
+}
 
+@media (max-width: 767px) {
 	.footer-brand {
 		text-align: center;
 		margin: 0.5em 0;
