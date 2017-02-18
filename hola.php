@@ -49,7 +49,7 @@
           <p>Somos una marca joven, entusiasta y creativa.</p>
           <p>Cuidamos los pequeños detalles, por ello somos fieles al "handmade" en Ubrique.</p>
           <p>Queremos hacerte complice de nuestros sueños.</p>
-          <p>Crecer, evolucionar y mejorar contigo.</p>
+          <p>Crecer, evolucionar y mejorar contigo.</p><br>
           <p class="center">¿Te unes a nuestro reto?</p>
           <p class="center"><span>Think, design and make it happen</span></p>
         </div>
