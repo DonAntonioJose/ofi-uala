@@ -27,6 +27,6 @@ if(!isset($_POST['contact_Name']) ||
 
 	@mail($email_to, $email_subject, $email_message, $headers);
 
-	header('Location: /ofi-uala/index.php');
+	header('Location: /gatete/index.php');
 }
 ?>
