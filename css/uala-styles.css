@@ -529,6 +529,15 @@ transform: translateY(0px);
 	display: none !important;
 }
 
+.ecwid-productBrowser-head {
+	font-weight: bold !important;
+}
+
+.ecwid-productBrowser-categoryPath-categoryLink a {
+	font-weight: bold !important;
+	color: #333 !important;
+}
+
 .first-slide {
 	background-image: url('../images/pano1.jpg');
 	background-size: cover;

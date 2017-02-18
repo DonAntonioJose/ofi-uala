@@ -8,6 +8,10 @@
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/uala-styles.css">
   <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/png" />
+  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="  crossorigin="anonymous"></script>
+  <script src="js/jquery.validate.1.6.js" type="text/javascript"></script>
+  <script src="js/uala.js" type="text/javascript"></script>
+  <script src="js/bootstrap.min.js"></script>
 </head>
 <body>
   <header>
@@ -50,8 +54,9 @@
       </div>
       <div class="second-element">
         <article class="col-xs-12 col-md-7">
-          <p>Quisque velit nisi, pretium ut lacinia in, elementum id enim. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit.</p>
-          <form action="sendbymail.php" method="post" role="contact_form" >
+          <p>¡Este espacio es para vosotros!</p>
+          <p>Queremos saber que pensáis, cuales con vuestras dudas e inquietudes sobre Uala since 1990. Así que no lo dudes y… ¡cuéntanos!</p>
+          <form action="sendbymail.php" method="post" role="contact_form" id="contact">
             <div class="form-group">
               <label for="contact_Name">Nombre </label>
               <input type="text" class="form-control" id="contact_Name"
@@ -96,8 +101,5 @@
     </div>
   </footer>
 
-  <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="  crossorigin="anonymous"></script>
-  <script src="js/uala.js"></script>
-  <script src="js/bootstrap.min.js"></script>
 </body>
 </html>
