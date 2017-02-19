@@ -671,23 +671,9 @@ transform: translateY(0px);
 	display: table-cell;
 	height: 200px;
 	vertical-align: middle;
-}
-
-.question:nth-child(4n+1) .box {
 	background: #EFD1C6;
 }
 
-.question:nth-child(2n) .box{
-	background: #F3CF55;
-}
-
-.question:nth-child(4n+3) .box {
-	background: #88B04B;
-}
-
-.question:nth-child(4n+4) .box{
-	background: #95DEE3;
-}
 .shadow
 {
 position:relative;
