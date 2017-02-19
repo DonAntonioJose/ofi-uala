@@ -47,7 +47,7 @@
 				<div class="box shadow"> 
 					<div class="box-container">
 					<h4>¿Cómo se fabrica un bolso Uala?</h4>
-					<p>Todos nuestros productos están diseñados por el equipo Uala, y los fabricamos en Ubrique de forma artesanal y con pieles…</p>
+					<p>Todos nuestros productos están diseñados por el equipo Uala, y los fabricamos en Ubrique de forma totalmente artesanal con pieles de primera calidad.</p>
 					</div>
 				</div>
   		</div>
