@@ -107,6 +107,14 @@
 					</div>
 				</div>
   		</div>
+
+  		<div class="pic">
+		    <img src="images/product.jpeg" class="pic-image" alt="Pic">
+		    <span class="pic-caption top-to-bottom">
+		        <h1 class="pic-title">Top to Bottom</h1>
+		        <p>Hi, this is a simple example =D</p>
+		    </span>
+			</div>
   	</div>
   </div>
 	<footer>

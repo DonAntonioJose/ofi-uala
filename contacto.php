@@ -74,7 +74,9 @@
               <textarea type="textarea" class="form-control" id="contact_Comment" 
                    placeholder="Comentario" required
                    name="contact_Comment"> </textarea>
-            </div>  
+            </div>
+            <p class="datos">De conformidad con lo establecido por la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de carácter personal, consiento la inclusión de mis datos en un fichero del que es titular XXXXXXXX, y que los mismos sean utilizados para prestarle el servicio o la información solicitada. Asimismo, declaro estar informado sobre los derechos de acceso, restificación, cancelación y oposición que podré ejercitar en el domicilio de XXXXXXXX; o bien remitiendo un mensaje a la dirección de correo electrónico info@uala.com.</p>
+            <input type="checkbox" name="contact_datos" value="datos" class="datos-check"> <span class="text-check">Acepto que he leído y estoy conforme con la cláusula anterior.</span><br>
             <button type="submit" class="btn btn-default">Enviar</button>
           </form>
         </article>

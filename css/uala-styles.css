@@ -605,6 +605,35 @@ transform: translateY(0px);
 	margin-top: 0.75em;
 }
 
+.contact input.error {
+	color: #333;
+}
+.contact .datos {
+	font-size: 0.7em;
+}
+
+.contact .datos-check {
+	margin: 0;
+}
+
+.contact .datos-check.error:focus {
+	outline-color: red;
+}
+
+.contact .text-check {
+	font-size: 0.7em;
+	color: black;
+	vertical-align: top;
+}
+
+#contact_datos-error {
+	display: none !important;
+}
+
+.contact .btn {
+	margin-top: 1em;
+}
+
 /* FAQ */
 
 .box h4 {
