@@ -671,9 +671,11 @@ transform: translateY(0px);
 	display: table-cell;
 	height: 200px;
 	vertical-align: middle;
-	background: #EFD1C6;
 }
 
+.question .box {
+	background: #EFD1C6;
+}
 .shadow
 {
 position:relative;
