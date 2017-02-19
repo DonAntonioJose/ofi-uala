@@ -605,6 +605,78 @@ transform: translateY(0px);
 	margin-top: 0.75em;
 }
 
+/* FAQ */
+
+.box h4 {
+	text-align:center;
+	color: #333;
+	font-weight: bold;
+	top:1em;
+	display: inline-block;
+	clear: both;
+	width: 100%;
+}
+
+.box p {
+	text-align:center;
+	color: #333;
+	font-weight: bold;
+	margin: 1em 0;
+	display: inline-block;
+	clear: both;
+	width: 100%;
+	line-height: 1.3em;
+}
+
+.box {
+	width: 90%;
+	height: 200px;
+	background:#ddd;
+	border: 1px solid #888;
+	margin: 3em auto;
+	padding: 1em;
+	display: table;
+}
+
+.box-container {
+	display: table-cell;
+	height: 200px;
+	vertical-align: middle;
+}
+
+.shadow
+{
+position:relative;
+-webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+-moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.shadow:before, .shadow:after
+{
+content:"";
+position:absolute;
+z-index:-1;
+-webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+-moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+box-shadow:0 0 20px rgba(0,0,0,0.8);
+top:0;
+bottom:0;
+left:10px;
+right:10px;
+-moz-border-radius:100px / 10px;
+border-radius:100px / 10px;
+}
+.shadow:after
+{
+right:10px;
+left:auto;
+-webkit-transform:skew(8deg) rotate(3deg);
+-moz-transform:skew(8deg) rotate(3deg);
+-ms-transform:skew(8deg) rotate(3deg);
+-o-transform:skew(8deg) rotate(3deg);
+transform:skew(8deg) rotate(3deg);
+}
+
 @media (max-width: 991px) {
 	.about-us .primary-content::after {
 		content: '';

@@ -94,7 +94,7 @@
       </div>
       <div class="col-xs-12 col-sm-4 footer-legal">
         <div class="content-legal">
-          <a class="faq" href="#">FAQ</a>
+          <a class="faq" href="./faq.php">FAQ</a>
           <a class="term-legal" href="#">Términos Legales</a>
         </div>
       </div>
