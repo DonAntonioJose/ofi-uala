@@ -49,7 +49,7 @@
     <div class="wrap">
       <div class="first-element">
         <article class="col-xs-12 col-md-5">
-        <img src="./images/contact.jpg" alt="contacto">
+        <img src="./images/contact2.jpg" alt="contacto">
         </article>
       </div>
       <div class="second-element">
