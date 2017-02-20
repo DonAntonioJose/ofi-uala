@@ -10,10 +10,10 @@ try {
 
 	$mail = new PHPMailer(true); //Nueva instancia, con las excepciones habilitadas
 
-	$body = "Detalles del formulario de contacto:\n\n";
-	$body .= "Nombre: " . $_POST['contact_Name'] . "\n";
-	$body .= "E-mail: " . $_POST['contact_Email'] . "\n";
-	$body .= "Comentarios: " . $_POST['contact_Comment'] . "\n\n";
+	$body = "<b>Detalles del formulario de contacto:<br><br></b>";
+	$body .= "<b>Nombre: </b>" . $_POST['contact_Name'] . "<br>";
+	$body .= "<b>E-mail: </b>" . $_POST['contact_Email'] . "<br>";
+	$body .= "<b>Comentarios: </b>" . $_POST['contact_Comment'] . "<br><br>";
 
 	$mail->IsSMTP();                           // Usamos el metodo SMTP de la clase PHPMailer
 	$mail->SMTPAuth   = true;                  // habilitado SMTP autentificación
