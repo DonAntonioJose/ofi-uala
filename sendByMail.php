@@ -18,11 +18,11 @@ try {
 	$mail->IsSMTP();                           // Usamos el metodo SMTP de la clase PHPMailer
 	$mail->SMTPAuth   = true;                  // habilitado SMTP autentificación
 	$mail->Port       = 587;                    // puerto del server SMTP
-	$mail->Host       = "smtp.gmail.com"; // SMTP server
+	$mail->Host       = "smtp.ualasince1990.com"; // SMTP server
 	
-	$mail->Username   = "btrescordoba@gmail.com";     // SMTP server Usuario
-	$mail->Password   = "3peluquero2017";            // SMTP server password
-	$mail->From       = "noreply@ualasince1990.com"; //Remitente de Correo
+	$mail->Username   = "no-reply@ualasince1990.com";     // SMTP server Usuario
+	$mail->Password   = "No-reply2017";            // SMTP server password
+	$mail->From       = "no-reply@ualasince1990.com"; //Remitente de Correo
 	$mail->FromName   = "Uala"; //Nombre del remitente
 	$mail->AddAddress($email_to);
 	$mail->Subject  = "Contacto desde sitio web"; //Asunto del correo
