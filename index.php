@@ -86,30 +86,30 @@
 			    </div>
 		    </div-->
 				<div class="content-product contenedor-img">  
-					<img src="./images/product.jpeg" />  
+					<img src="./images/product.jpg" />  
 					<div class="cover">  
-						<h2>Ejemplo 1</h2>  
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
+						<h2>Bucket</h2>  
+						<p>Nuestro clásico y fiel bolso bombonera.</p>
 						<a href="./virtualshop.html" class="link">Leer mas</a>  
 					</div>  
 				</div>
   		</div>
   		<div class="col-xs-12 col-sm-6 col-md-4 product">
 				<div class="content-product contenedor-img">  
-					<img src="./images/product2.jpeg" />  
+					<img src="./images/product2.jpg" />  
 					<div class="cover">  
-						<h2>Ejemplo 1</h2>  
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
+						<h2>Clutch</h2>  
+						<p>Bolso de mano bicolor. Diseño versátil que incluye asa bandolera larga de piel ajustable con piezas metálicas en acabado dorado y un asa de mano</p>
 						<a href="./virtualshop.html" class="link">Leer mas</a>  
 					</div>  
 				</div>
   		</div>
   		<div class="col-xs-12 col-sm-6 col-md-4 product">
 				<div class="content-product contenedor-img">  
-					<img src="./images/product3.jpeg" />  
+					<img src="./images/product3.jpg" />  
 					<div class="cover">  
-						<h2>Ejemplo 1</h2>  
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
+						<h2>Shopper</h2>  
+						<p>Bolso combinación en tela y piel de vacuno. Es un diseño que presenta doble asa de hombro con detalle de borla.</p>
 						<a href="./virtualshop.html" class="link">Leer mas</a>  
 					</div>  
 				</div>
