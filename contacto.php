@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-  <?php header("Content-type: text/html; charset=utf8"); ?>
+  <?php header("Content-type: text/html; charset=utf8"); 
+  $sent = $_GET['sent'];
+  ?>
   <meta chartset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
   <title>Uala - Contacto</title>
@@ -56,7 +58,7 @@
         <article class="col-xs-12 col-md-7">
           <p>¡Este espacio es para vosotros!</p>
           <p>Queremos saber que pensáis, cuales con vuestras dudas e inquietudes sobre Uala since 1990. Así que no lo dudes y… ¡cuéntanos!</p>
-          <form action="sendbymail.php" method="post" role="contact_form" id="contact">
+		  <form action="sendbymail.php" method="post" role="contact_form" id="contact">
             <div class="form-group">
               <label for="contact_Name">Nombre </label>
               <input type="text" class="form-control" id="contact_Name"
@@ -75,10 +77,29 @@
                    placeholder="Comentario" required
                    name="contact_Comment"> </textarea>
             </div>
-            <p class="datos">De conformidad con lo establecido por la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de carácter personal, consiento la inclusión de mis datos en un fichero del que es titular XXXXXXXX, y que los mismos sean utilizados para prestarle el servicio o la información solicitada. Asimismo, declaro estar informado sobre los derechos de acceso, restificación, cancelación y oposición que podré ejercitar en el domicilio de XXXXXXXX; o bien remitiendo un mensaje a la dirección de correo electrónico info@uala.com.</p>
-            <input type="checkbox" name="contact_datos" value="datos" class="datos-check"> <span class="text-check">Acepto que he leído y estoy conforme con la cláusula anterior.</span><br>
+			<!-- We only show legal terms before sending the EMAIL -->
+			<?php 
+			if($sent != "ok") {
+			?>
+				<p class="datos">De conformidad con lo establecido por la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de carácter personal, consiento la inclusión de mis datos en un fichero del que es titular XXXXXXXX, y que los mismos sean utilizados para prestarle el servicio o la información solicitada. Asimismo, declaro estar informado sobre los derechos de acceso, restificación, cancelación y oposición que podré ejercitar en el domicilio de XXXXXXXX; o bien remitiendo un mensaje a la dirección de correo electrónico info@uala.com.</p>
+				<input type="checkbox" name="contact_datos" value="datos" class="datos-check"> <span class="text-check">Acepto que he leído y estoy conforme con la cláusula anterior.</span><br>
+			<?php 
+			}
+			?>
             <button type="submit" class="btn btn-default">Enviar</button>
-          </form>
+          </form>	  
+		  
+		<?php 
+			if($sent == "ok") {
+		?>
+			<br><br>
+			<p>El mensaje se ha enviado correctamente.</p>
+		<?php 
+			}
+		?>
+		  
+		  
+		  
         </article>
       </div>
     </div>  

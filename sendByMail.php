@@ -30,8 +30,9 @@ try {
 	$mail->IsHTML(true); // Enviar como HTML
 	$mail->Send();//Enviar
 	
+	
 
-	header('Location: /gatete/index.php');
+	header('Location: /gatete/contacto.php?sent=ok');
 	
 	
 }catch (phpmailerException $e) {
