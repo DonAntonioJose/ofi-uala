@@ -81,7 +81,10 @@
 			<?php 
 			if($sent != "ok") {
 			?>
-				<p class="datos">De conformidad con lo establecido por la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de carácter personal, consiento la inclusión de mis datos en un fichero del que es titular XXXXXXXX, y que los mismos sean utilizados para prestarle el servicio o la información solicitada. Asimismo, declaro estar informado sobre los derechos de acceso, restificación, cancelación y oposición que podré ejercitar en el domicilio de XXXXXXXX; o bien remitiendo un mensaje a la dirección de correo electrónico info@uala.com.</p>
+				<p class="datos" align="justify">El Usuario podrá remitir a Uala since 1990 sus datos de carácter personal a través de los distintos formularios que a tal efecto aparecen incorporados en la página Web. Dichos formularios incorporan un texto legal en materia de protección de datos personales que da cumplimiento a las exigencias establecidas en la Ley Orgánica 15/1999, de 13 de diciembre, de Protección de Datos de Carácter Personal, y en su Reglamento de Desarrollo, aprobado por el Real Decreto 1720/2007, de 21 de diciembre. Rogamos lea atentamente los textos legales antes de facilitar sus datos de carácter personal.</p>
+
+        <p class="datos" align="justify">La relación entre Uala since 1990 y el Usuario se regirá por la normativa española vigente y cualquier controversia se someterá a los Juzgados y Tribunales del domicilio del Usuario. Uala since 1990 perseguirá el incumplimiento de las presentes Condiciones así como cualquier utilización indebida del sitio web ejerciendo todas las acciones civiles y penales que le puedan corresponder y asistan en derecho.</p>
+
 				<input type="checkbox" name="contact_datos" value="datos" class="datos-check"> <span class="text-check">Acepto que he leído y estoy conforme con la cláusula anterior.</span><br>
 			<?php 
 			}
