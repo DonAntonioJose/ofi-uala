@@ -90,7 +90,7 @@
 					<div class="cover">  
 						<h2>Bucket</h2>  
 						<p>Nuestro clásico y fiel bolso bombonera.</p>
-						<a href="./virtualshop.html" class="link">Leer mas</a>  
+						<a href="./tienda.php#!/Bucket/c/22590814" class="link">Leer mas</a>  
 					</div>  
 				</div>
   		</div>
@@ -100,7 +100,7 @@
 					<div class="cover">  
 						<h2>Clutch</h2>  
 						<p>Bolso de mano bicolor. Diseño versátil que incluye asa bandolera larga de piel ajustable con piezas metálicas en acabado dorado y un asa de mano</p>
-						<a href="./virtualshop.html" class="link">Leer mas</a>  
+						<a href="./tienda.php#!/Clutch/c/22678473" class="link">Leer mas</a>  
 					</div>  
 				</div>
   		</div>
@@ -110,17 +110,17 @@
 					<div class="cover">  
 						<h2>Shopper</h2>  
 						<p>Bolso combinación en tela y piel de vacuno. Es un diseño que presenta doble asa de hombro con detalle de borla.</p>
-						<a href="./virtualshop.html" class="link">Leer mas</a>  
+						<a href="./tienda.php#!/Shopper/c/22692223" class="link">Leer mas</a>  
 					</div>  
 				</div>
   		</div>
   		<div class="col-xs-12 col-sm-6 col-md-4 product">
 				<div class="content-product contenedor-img">  
-					<img src="./images/product4.jpeg" />  
+					<img src="./images/product4.jpg" />  
 					<div class="cover">  
-						<h2>Ejemplo 1</h2>  
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
-						<a href="./virtualshop.html" class="link">Leer mas</a>  
+						<h2>Handbag</h2>  
+						<p>Combinación en tela y piel de vacuno. Forma de sobre con base y asa de pulsera de piel.</p>
+						<a href="./tienda.php#!/Handbag/c/22692224" class="link">Leer mas</a>  
 					</div>  
 				</div>
   		</div>
