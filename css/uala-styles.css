@@ -709,6 +709,11 @@ left:auto;
 transform:skew(8deg) rotate(3deg);
 }
 
+.legal-text {
+	margin: 2em 0;
+	line-height: 1.3em;
+}
+
 @media (max-width: 991px) {
 	.about-us .primary-content::after {
 		content: '';
