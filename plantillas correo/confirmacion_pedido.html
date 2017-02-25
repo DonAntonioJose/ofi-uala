@@ -1,0 +1,489 @@
+<!--[if mso]>
+<center><table border="0" cellpadding="0" cellspacing="0"><tr><td width="640">
+<![endif]-->
+<table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" style="max-width: 640px;margin: auto;" class="emailContainer">
+    <tr>
+        <td align="left" valign="top" style="padding-top: 12px" class="emailHeader emailTile">
+
+
+<!-- Header : start -->
+
+            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                <tr>
+                    <td align="left" valign="top">
+                        <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                            <tr class="emailTitle">
+
+<!-- Title -->
+                                <td>
+                                    <h1 style="font-family: Arial,Helvetica,sans-serif;font-size: 30px;font-weight: normal;line-height: 40px;color: #333333;margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0;">
+                                        Confirmación de pedido
+                                    </h1>
+                                </td>
+
+<!-- Store logo -->
+                                <td align="right" valign="top" rowspan="2" class="emailLogo">
+                                    <@storeLogo/>
+                                </td>
+                            </tr>
+                        </table>
+
+                    </td>
+                </tr>
+            </table>
+
+<!-- Header : end -->
+
+
+        </td>
+    </tr>
+    <tr>
+        <td align="left" valign="top" style="padding-top: 31px;" class="emailBody emailTile">
+            <table border="0" width="100%" cellpadding="0" cellspacing="0" >
+
+
+<!-- Customer greeting : start -->
+
+                <tr>
+                    <td align="left" valign="top" style="text-align: left;font-family: Arial,sans-serif;font-size: 14px;font-weight: bold;line-height: 150%;color: #333333;">
+                        Estimado(a) ${customer.name},
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="text-align: left;font-family: Arial,sans-serif;font-size: 14px;line-height: 150%;color: #333333;padding-top:9px">
+                        <#if (order.paymentMethod.isOnline || order.isPaid)>
+                            Su pedido del ${order.dateCreated} ha sido pagado y está en espera de ser procesado. En cuanto su paquete sea enviado le enviaremos una notificación por correo electrónico.
+                        <#else>
+                            ¡Gracias por su pedido a la tienda ${store.name}! Su pedido de ${order.dateCreated} ha sido presentado y se procesará tan pronto como se reciba el pago.
+                        </#if>
+                    </td>
+                </tr>
+
+<!-- Customer greeting : end -->
+
+
+                <tr>
+                    <td align="center" valign="top" style="padding-top: 23px;" class="emailOrderInfo">
+
+
+<!-- Order status : start -->
+
+                        <table border="0" width="100%" cellpadding="0" cellspacing="0" bgcolor="#f8f8f8" >
+                            <tr>
+                                <td align="center" valign="middle" style="font-family: Arial,sans-serif;font-size: 18px;line-height: 24px;padding-top: 26px; color: #333333;">
+                                    Pedido <@orderLink style="text-decoration: none;"/>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="center" valign="middle" style="font-family: Arial,sans-serif;font-size: 24px;line-height: 30px; padding-bottom: 30px;color: #333333;">
+                                    Estado de pago: <nobr><b>${order.paymentStatus}</b></nobr>
+                                </td>
+                            </tr>
+                        </table>
+
+<!-- Order status : end -->
+
+                    </td>
+                </tr>
+
+<!-- Shipping address : start -->
+<!-- The shipping address is shown here if the order is paid -->
+
+                <#if (order.paymentMethod.isOnline || order.isPaid)>
+                    <#if order.isPickup>
+                        <tr>
+                            <td align="left" valign="top" style="padding-top: 30px;">
+                                <h2 style="font-family: Arial,sans-serif;font-size: 24px;font-weight: normal;line-height: 36px;color: #333333;margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0;">${order.shippingMethod}</h2>
+                                <br/>
+                                <#noescape>${order.shippingInstruction}</#noescape>
+                            </td>
+                        </tr>
+                    <#else>
+                        <#if order.isShippingRequired && order.shippingAddress?has_content>
+                            <tr>
+                                <td align="left" valign="top" style="padding-top: 30px;">
+                                    <h2 style="font-family: Arial,sans-serif;font-size: 24px;font-weight: normal;line-height: 36px;color: #333333;margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0;">
+                                        Le enviaremos su pedido a
+                                    </h2>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top" style="font-family: Arial,sans-serif;font-size: 14px;line-height: 24px;color: #333333;padding-top:10px;">
+                                    <b>${order.shippingAddress.name}</b>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td align="left" valign="top" style="font-family: Arial,sans-serif;font-size: 14px;line-height: 18px;color: #333333;padding-top: 2px;">
+                                    ${order.shippingAddress}
+                                </td>
+                            </tr>
+                            <#if order.shippingAddress.phone?has_content>
+                                <tr>
+                                    <td align="left" valign="top" style="font-family: Arial,sans-serif;font-size: 14px;line-height: 18px;color: #333333;padding-top: 5px;">
+                                        Teléfono ${order.shippingAddress.phone}
+                                    </td>
+                                </tr>
+                            </#if>
+                        </#if>
+                        <#if order.shippingMethod.name?has_content>
+                            <tr>
+                                <td align="left" valign="top" style="font-family: Arial,sans-serif;font-size: 14px;line-height: 24px;color: #333333;padding-top: 11px;">
+                                    <b>Método de envío</b><br/>
+                                    ${order.shippingMethod}<br/>
+                                    ${order.shippingMethod.estimatedTransitTime}
+                                </td>
+                            </tr>
+                        </#if>
+                    </#if>
+
+<!-- Shipping address : end -->
+
+<!-- Payment instructions : start -->
+<!-- The payment instructions are shown here instead of the shipping address if the order is not paid yet -->
+
+                <#else>
+                    <#if order.paymentMethod.instructions?has_content>
+                    <tr>
+                        <td align="left" valign="top" style="font-family: Arial,sans-serif;font-size: 14px;line-height: 20px;padding-top: 30px;color: #333333;" class="emailCustomerNote">
+                            <h2 style="font-family: Arial,sans-serif;font-size: 24px;font-weight: normal;line-height: 36px;color: #333333; margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0;">
+                                ${order.paymentMethod.instructionsTitle}
+                            </h2>
+                            <#noescape>${order.paymentMethod.instructions}</#noescape>
+                        </td>
+                    </tr>
+                    </#if>
+                </#if>
+
+<!-- Payment instructions: end -->
+
+
+<!-- Item list: start -->
+
+                <tr>
+                    <td align="left" valign="top" style="padding-top: 30px;">
+                        <h2 style="font-family: Arial,sans-serif;font-size: 24px;font-weight: normal;line-height: 36px;color: #333333;margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0;">
+                            Su pedido
+                        </h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="padding-top:8px;">
+                        <table border="0" width="100%" cellpadding="0" cellspacing="0" style="border: 1px solid #dadada;">
+                            <tr>
+                                <td style="padding-top: 20px;padding-right: 20px;padding-bottom: 0;padding-left: 20px;" class="emailProductContainer">
+                                    <table cellpadding="0" cellspacing="0" >
+                                        <tr>
+                                            <td>
+                                                <table cellpadding="0" cellspacing="0" >
+                                                    <#list order.items as orderItem>
+                                                        <tr>
+                                                            <td valign="top" width="600" style="padding-bottom: 20px;" class="emailProduct">
+
+
+<!-- Item: start -->
+
+                                                                <table border="0" cellpadding="0" cellspacing="0" style="table-layout: fixed;">
+                                                                    <tr>
+                                                                        <td align="center" valign="top" width="140" class="emailProductImage">
+                                                                            <#if orderItem.imageUrl?has_content>
+                                                                                <a href="${orderItem.customerUrl}">
+                                                                                    <img width="140" src="${orderItem.imageUrl}" border="0" alt="${orderItem.name}"/>
+                                                                                </a>
+                                                                            </#if>
+                                                                        </td>
+                                                                        <td width="20">&nbsp;</td>
+                                                                        <td align="left" valign="middle" width="420" class="emailProductDesc">
+                                                                            <table cellpadding="0" cellspacing="0" border="0" width="100%">
+                                                                                <tr>
+                                                                                    <td style="font-family: Arial,sans-serif; font-size: 14px;line-height: 20px; padding-top: 5px" class="emailProductName">
+                                                                                        <a href="${orderItem.customerUrl}" style="display: block; text-decoration: none; color: #005aae">
+                                                                                            ${orderItem.name}
+                                                                                        </a>
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td style="font-family: Arial,sans-serif; font-size: 12px;line-height: 20px; color: #999999; padding-top: 11px;">
+                                                                                        SKU: #${orderItem.sku}<br/>
+                                                                                        ${orderItem.formattedOptions}
+                                                                                    </td>
+                                                                                </tr>
+                                                                                <tr>
+                                                                                    <td style="font-family: Arial,sans-serif; font-size: 14px;line-height: 20px; color: #333333;padding-top: 9px;">
+                                                                                        ${orderItem.quantity} × ${orderItem.price}
+                                                                                    </td>
+                                                                                </tr>
+                                                                            </table>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+
+<!-- Item: end -->
+
+
+                                                            </td>
+                                                        </tr>
+                                                    </#list>
+                                                </table>
+                                            </td>
+                                        </tr>
+
+
+<!-- Order summary : start -->
+
+                                        <tr>
+                                            <td align="left" valign="top" class="emailProductTotal">
+                                                <table cellpadding="0" cellspacing="0" border="0" width="100%" >
+                                                    <tr>
+                                                        <td style="padding-top: 16px;padding-bottom: 23px;padding-left: 20px; border-top: 1px solid #DADADA;">
+
+                                                            <table cellpadding="0" cellspacing="0" border="0" align="right" width="50%" >
+                                                                <tr>
+                                                                    <td align="left" valign="top" width="100%" style="font-family: Arial,sans-serif; font-size: 12px;line-height: 20px; color: #333333; padding-left: 32px;padding-right: 20px;white-space: nowrap;">
+                                                                        Subtotal (${order.items?size} art.)
+                                                                    </td>
+
+<!-- Subtotal -->
+                                                                    <td align="right" valign="top" style="font-family: Arial,sans-serif; font-size: 12px;line-height: 20px; color: #333333;white-space: nowrap;">
+                                                                        ${order.subtotal}
+                                                                    </td>
+                                                                </tr>
+
+<!-- Shipping rate -->
+                                                                <#if order.shippingMethod?has_content>
+                                                                <tr>
+                                                                    <td align="left" valign="top" width="100%" style="font-family: Arial,sans-serif; font-size: 12px;line-height: 20px; color: #333333;padding-left: 32px;padding-right: 20px;white-space: nowrap;">
+                                                                        Gastos de envío
+                                                                    </td>
+                                                                    <td align="right" valign="top" style="font-family: Arial,sans-serif; font-size: 12px;line-height: 20px; color: #333333;white-space: nowrap;">
+                                                                        ${order.shippingCost}
+                                                                    </td>
+                                                                </tr>
+                                                                <#if order.handlingFee?has_content>
+                                                                <tr>
+                                                                    <td align="left" valign="top" width="100%" style="font-family: Arial,sans-serif; font-size: 12px;line-height: 20px; color: #333333;padding-left: 32px;padding-right: 20px;white-space: nowrap;">
+                                                                        ${order.handlingFee.name}
+                                                                    </td>
+                                                                    <td align="right" valign="top" style="font-family: Arial,sans-serif; font-size: 12px;line-height: 20px; color: #333333;white-space: nowrap;">
+                                                                        ${order.handlingFee.value}
+                                                                    </td>
+                                                                </tr>
+                                                                </#if>
+                                                                </#if>
+
+<!-- Taxes -->
+                                                                <#list order.taxes as tax>
+                                                                <tr>
+                                                                    <td align="left" valign="top" width="100%" style="font-family: Arial,sans-serif; font-size: 12px;line-height: 20px; color: #333333;padding-left: 32px;padding-right: 20px;white-space: nowrap;">
+                                                                        ${tax.name}
+                                                                    </td>
+                                                                    <td align="right" valign="top" style="font-family: Arial,sans-serif; font-size: 12px;line-height: 20px; color: #333333;white-space: nowrap;">
+                                                                        IVA incl (21%)
+                                                                    </td>
+                                                                </tr>
+                                                                </#list>
+
+<!-- Discounts -->
+                                                                <#list order.discounts as discount>
+                                                                <tr>
+                                                                    <td align="left" valign="top" width="100%" style="font-family: Arial,sans-serif; font-size: 12px;line-height: 20px; color: #333333;padding-left: 32px;padding-right: 20px;white-space: nowrap;">
+                                                                        ${discount.name}
+                                                                    </td>
+                                                                    <td align="right" valign="top" style="font-family: Arial,sans-serif; font-size: 12px;line-height: 20px; color: #333333; white-space: nowrap;">
+                                                                        -${discount.value}
+                                                                    </td>
+                                                                </tr>
+                                                                </#list>
+
+<!-- Total -->
+                                                                <tr>
+                                                                    <td align="left" valign="top" width="100%" style="font-family: Arial,sans-serif; font-size: 18px;line-height: 24px; color: #333333;padding-top: 6px;padding-left: 32px;padding-right: 20px;white-space: nowrap;">
+                                                                        <b>Total</b>
+                                                                    </td>
+                                                                    <td align="right" valign="top" style="font-family: Arial,sans-serif; font-size: 18px;line-height: 24px; color: #333333; padding-top: 6px;white-space: nowrap;">
+                                                                        <b>${order.total}</b>
+                                                                    </td>
+                                                                </tr>
+
+                                                                <#if store.taxFreeBusiness>
+                                                                <tr>
+                                                                    <td colspan="2" align="left" valign="top" width="100%" style="font-family: Arial,sans-serif; font-size: 12px;line-height: 20px; color: #333333; padding-left: 32px;padding-right: 20px;">
+                                                                        VAT is not charged (small business owner § 19 UStG)
+                                                                    </td>
+                                                                </tr>
+                                                                </#if>
+                                                            </table>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+
+<!-- Order summary : end -->
+
+
+                                     </table>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+<!-- Item list: end -->
+
+
+<!-- Order comments : start -->
+
+                <#if order.orderComments?has_content>
+                <tr>
+                    <td align="left" valign="top" style="font-family: Arial,sans-serif;font-size: 14px;line-height: 20px;color: #333333;padding-top:16px;">
+                        <b>Comentarios del pedido</b>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top" style="font-family: Arial,sans-serif;font-size: 14px;line-height: 20px;color: #333333;padding-top:4px;"><#noescape>${order.orderComments}</#noescape></td>
+                </tr>
+                </#if>
+
+<!-- Order comments : end -->
+
+
+<!-- Shipping address: start -->
+<!-- The shipping address is shown here if the order is not paid yet -->
+
+
+                <#if (!order.paymentMethod.isOnline && !order.isPaid)>
+                    <#if order.isPickup>
+                        <tr>
+                            <td align="left" valign="top" style="font-family: Arial,sans-serif;font-size: 14px;line-height: 24px;color: #333333;padding-top:15px;">
+                                <p>${order.shippingMethod}</p>
+                                <br/>
+                                <#noescape>${order.shippingInstruction}</#noescape>
+                            </td>
+                        </tr>
+                    <#else>
+                        <#if order.isShippingRequired && order.shippingAddress?has_content>
+                            <tr>
+                                <td align="left" valign="top" style="font-family: Arial,sans-serif;font-size: 14px;line-height: 24px;color: #333333;padding-top:15px;">
+                                    <b>Enviar a</b><br/>
+                                    ${order.shippingAddress.name}<br/>
+                                    ${order.shippingAddress}<br/>
+                                    <#if order.shippingAddress.phone?has_content>
+                                    Teléfono ${order.shippingAddress.phone}
+                                    </#if>
+                                </td>
+                            </tr>
+                        </#if>
+                        <#if order.shippingMethod.name?has_content>
+                            <tr>
+                                <td align="left" valign="top" style="font-family: Arial,sans-serif;font-size: 14px;line-height: 24px;color: #333333;padding-top:11px;">
+                                    <b>Método de envío</b><br/>
+                                    ${order.shippingMethod}<br/>
+                                    ${order.shippingMethod.estimatedTransitTime}
+                                </td>
+                            </tr>
+                        </#if>
+                            <tr>
+                                <td align="left" valign="top" style="font-family: Arial,sans-serif;font-size: 14px;line-height: 24px;color: #333333;padding-top:11px;">
+                                    <b>Método de pago</b><br/>
+                                    ${order.paymentMethod}
+                                </td>
+                            </tr>
+                    </#if>
+                </#if>
+
+<!-- Shipping address : end -->
+
+                <#if formLinkEnabled>
+                    <#include "partials/order/order-form-link_es.ftl">
+                </#if>
+
+<!-- Store contact info and help note : start -->
+
+                <tr>
+                    <td align="center" valign="top" class="emailBodyBottom" style="padding-top: 42px;padding-bottom: 0;">
+                      <h2 style="font-family: Arial,Helvetica,sans-serif;font-size: 24px;font-weight: normal;line-height: 36px;color: #333333;margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0;">
+                          Gracias por hacer sus compras con nosotros
+                      </h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="left" valign="top">
+                        <table cellpadding="0" cellspacing="0" >
+                            <#if !customer.isAnonymous>
+                            <tr>
+  <!--                              <td style="padding-top: 17px;padding-bottom: 0;">
+                                    <p style="font-family: Arial,Helvetica,sans-serif;font-size: 14px;line-height: 20px;color: #333333;margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0;">
+                                        Siempre podrá verificar el estado de sus pedidos en la <a href="${store.customerOrdersPageUrl}" style="text-decoration: underline;">Página de historial de pedidos</a>.
+                                    </p>
+                                </td> -->
+                            </tr>
+                            </#if>
+                            <tr>
+                                <td style="padding-top: 17px;padding-bottom: 0;">
+                                    <p style="font-family: Arial,Helvetica,sans-serif;font-size: 14px;line-height: 20px;color: #333333;margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0;">
+                                        Si necesita ayuda o tiene preguntas, siempre nos complace poder ayudarle. Comuníquese con nosotros enviándonos un correo electrónico a <a href="mailto:${store.companyEmail}" style="text-decoration: underline;" target="_blank">${store.companyEmail}</a><#if (store.officeAddress.phone)?has_content>.</#if> Nos complace poder ayudarlo.
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+<!-- Store contact info and help note : end -->
+
+
+<!-- Signature : start -->
+
+                <tr>
+                    <td align="left" valign="top" style="padding-top: 13px;">
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0" >
+                            <tr>
+                                <td valign="top" style="font-family: Arial,Helvetica,sans-serif;font-size: 14px;line-height: 20px;color: #333333;padding-left: 0;">
+                                    <p style="font-family: Arial,Helvetica,sans-serif;font-size: 14px;line-height: 20px;color: #333333;margin-top: 9px;margin-bottom: 0;padding-top: 0;padding-bottom: 0;">
+                                        Atentamente,<br/>
+                                        <a href="http://www.ualasince1990.com/tienda.php" style="text-decoration: none;"> https://www.ualasince1990.com</a>
+                                        <!-- ${store.name}<br/>-->
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+<!-- Signature : end -->
+
+
+<!-- Footer : start -->
+
+                <tr>
+                    <td style="padding-top: 20px;">
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%" align="center" >
+                            <tr>
+                                <td align="center" valign="top" style="font-family: Arial,Helvetica,sans-serif;font-size: 12px;line-height: 18px;color: #999999;padding-top: 22px;" class="emailStoreAddress">
+                                    &copy; ${store.name}
+                                    <#if store.officeAddress?has_content >
+                                        <br/>${store.officeAddress}
+                                    </#if>
+                                    <#if store.businessRegistrationID.value?has_content >
+                                        <br/>${store.businessRegistrationID.name}: ${store.businessRegistrationID.value}
+                                    </#if>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+<!--                    <td align="center" valign="top">
+                        <@legalPages/>
+                    </td>-->
+                </tr>
+
+<!-- Footer : end -->
+
+            </table>
+        </td>
+    </tr>
+</table>
+<!--[if mso]>
+</td></tr></table></center>
+<![endif]-->

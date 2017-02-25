@@ -1,0 +1,180 @@
+<!--[if mso]>
+<center><table border="0" cellpadding="0" cellspacing="0"><tr><td width="640">
+<![endif]-->
+<table border="0" width="100%" cellpadding="0" cellspacing="0" align="center" style="max-width: 640px;margin: auto;" class="emailContainer">
+    <tr>
+        <td align="left" valign="top" style="padding-top: 12px" class="emailHeader emailTile emailWelcome">
+
+
+<!-- Header : start -->
+
+            <table border="0" width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                    <td align="center" valign="top">
+                        <table border="0" width="100%" cellpadding="0" cellspacing="0" align="center">
+                            <tr>
+
+<!-- Store logo -->
+                                <td align="center" valign="top" class="emailLogo">
+                                    <@storeLogo/>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top" style="padding-top:21px;">
+                        <table border="0" cellpadding="0" cellspacing="0" align="center">
+                            <tr>
+
+<!-- Title -->
+                                <td align="center" valign="top">
+                                    <h1 style="font-family: Arial,Helvetica,sans-serif; font-size: 30px;font-weight: normal;line-height: 40px;color: #333333;margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 14px;">Bienvenido a ${store.name}</h1>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+            </table>
+
+<!-- Header : end -->
+
+
+        </td>
+    </tr>
+    <tr>
+        <td align="left" valign="top" style="padding-top: 10px;" class="emailBody emailTile">
+            <table border="0" width="100%" cellpadding="0" cellspacing="0">
+
+
+<!-- Customer greeting : start -->
+
+                <tr>
+                    <td align="left" valign="top" style="text-align: left;font-family: Arial,sans-serif;font-size: 14px;line-height: 20px;color: #333333;">
+                        ¡Hola, ${customer.name}!
+                        ¡Gracias por registrarse! Nos alegra mucho que se haya unido a nosotros y esperamos verlo en nuestra tienda. Visítenos en cualquier momento y disfrute su experiencia de compras en ${store.name}. Nos complace poder ayudarlo.
+                    </td>
+                </tr>
+
+<!-- Customer greeting : end -->
+
+
+<!-- "Shop now" button : start -->
+
+
+                <tr>
+                    <td align="center" valign="top" style="padding-top: 35px;">
+                        <table cellspacing="0" cellpadding="0" border="0" align="center">
+                            <tr>
+                                <td valign="top" align="center" width="280">
+                                    <div><!--[if mso]>
+                                        <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="${store.storeUrl}" style="height:40px;v-text-anchor:middle;width:280px;" arcsize="13%" stroke="f" fillcolor="#6bac5a">
+                                            <w:anchorlock/>
+                                            <center>
+                                        <![endif]-->
+                                        <a href="${store.storeUrl}" style="background-color: #000000;border-radius: 5px;color: #ffffff;display:inline-block;font-family: Helvetica,Arial,sans-serif;font-size: 14px;font-weight: bold;line-height: 40px;text-align: center;width: 280px;height: 40px;text-decoration: none;-webkit-text-size-adjust:none;">
+                                            <span style="color:#">Comprar ahora</span>
+                                        </a>
+                                        <!--[if mso]>
+                                        </center>
+                                        </v:roundrect>
+                                        <![endif]-->
+                                    </div>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <!-- <tr>
+                    <td valign="top" align="center" style="font-family: Arial,Helvetica,sans-serif;font-size: 11px;line-height: 20px;color: #777;text-align: center; padding-top: 17px; padding-bottom: 12px;" class="emailButtonLink">
+                        <a target="_blank" style="text-decoration:underline; word-break:break-all;" href="http://www.ualasince1990.com/tienda.php">http://www.ualasince1990.com</a>
+                    </td>
+                </tr>-->
+
+<!-- "Shop now" button : end -->
+
+
+<!-- Store contact info and help note : start -->
+
+                <tr>
+                    <td align="left" valign="top" style="padding-top: 14px;">
+                        <table cellpadding="0" cellspacing="0" >
+                           <!-- <#if !customer.isAnonymous>
+                            <tr>
+                                <td style="padding-top: 17px;padding-bottom: 0;">
+                                    <p style="font-family: Arial,Helvetica,sans-serif;font-size: 14px;line-height: 20px;color: #333333;margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0;">
+                                        Siempre podrá verificar el estado de sus pedidos en la <a href="${store.customerOrdersPageUrl}" style="text-decoration: underline;">Página de historial de pedidos</a>.
+                                    </p>
+                                </td>
+                            </tr>
+                            </#if>-->
+                            <tr>
+                                <td style="padding-top: 17px;padding-bottom: 0;">
+                                    <p style="font-family: Arial,Helvetica,sans-serif;font-size: 14px;line-height: 20px;color: #333333;margin-top: 0;margin-bottom: 0;padding-top: 0;padding-bottom: 0;">
+                                        Si necesita ayuda o tiene preguntas, siempre nos complace poder ayudarle. Comuníquese con nosotros enviándonos un correo electrónico a <a href="mailto:${store.companyEmail}" style="text-decoration: underline;" target="_blank">${store.companyEmail}</a><#if (store.officeAddress.phone)?has_content></#if>.
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+<!-- Store contact info and help note : end -->
+
+
+<!-- Signature : start -->
+
+                <tr>
+                    <td align="left" valign="top" style="padding-top: 13px;">
+                        <table width="100%" cellspacing="0" cellpadding="0" border="0">
+                            <tr>
+                                <td valign="top" style="font-family: Arial,Helvetica,sans-serif;font-size: 14px;line-height: 20px;color: #333333;padding-left: 0;">
+                                    <p style="font-family: Arial,Helvetica,sans-serif;font-size: 14px;line-height: 20px;color: #333333;margin-top: 9px;margin-bottom: 0;padding-top: 0;padding-bottom: 0;">
+                                        Atentamente,<br/>
+                                        ${store.name}<br/>
+                                        <a href="http://www.ualasince1990.com" style="text-decoration: none;">http://www.ualasince1990.com</a>
+                                    </p>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+
+<!-- Signature : end -->
+
+
+<!-- Footer : start -->
+
+                <tr>
+                    <td align="center" valign="top" style="padding-top: 20px;">
+                        <table cellspacing="0" cellpadding="0" border="0" width="100%" align="center">
+                            <tr>
+                                <td align="center" valign="top" style="font-family: Arial,Helvetica,sans-serif;font-size: 12px;line-height: 18px;color: #999999;padding-top: 22px;" class="emailStoreAddress">
+                                    &copy; ${store.name}
+                                    <#if store.officeAddress?has_content >
+                                        <br/>${store.officeAddress}
+                                    </#if>
+                                    <#if store.businessRegistrationID.value?has_content >
+                                        <br/>${store.businessRegistrationID.name}: ${store.businessRegistrationID.value}
+                                    </#if>
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <td align="center" valign="top">
+                        <@legalPages/>
+                    </td>
+                </tr>
+
+<!-- Footer : end -->
+
+
+            </table>
+        </td>
+    </tr>
+</table>
+<!--[if mso]>
+</td></tr></table></center>
+<![endif]-->
