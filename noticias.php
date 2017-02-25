@@ -4,7 +4,7 @@
   <?php header("Content-type: text/html; charset=utf8"); ?>
   <meta chartset="UTF-8">
   <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-  <title>Uala - Noticias</title>
+  <title>Uala - Ualalea</title>
   <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="css/uala-styles.css">
   <link rel="shortcut icon" href="images/favicon-32x32.png" type="image/png" />
@@ -42,7 +42,68 @@
     </nav>
   </header>
   <section class="main container">
-    <h2> Noticias </h2>
+    <div class="mosaic">
+      <div class="row">
+        <article class="col-xs-12 col-sm-8 item">
+          <img class="pic" src="./images/Ualalea-1.jpg" alt="First slide">
+        </article>
+        <article class="col-xs-12 col-sm-4 item">
+          <h2> Since 1990 </h2>
+        </article>      
+      </div>
+      <div class="row">
+        <article class="col-xs-12 item">
+          <div class="pic">
+            <img class="pic" src="./images/Ualalea-2.jpg">
+          </div>
+        </article>  
+      </div>
+      <div class="row">
+        <article class="col-xs-12 item">
+          <div class="pic">
+            <img class="pic" src="./images/Ualalea-3.jpg">
+          </div>
+        </article>  
+      </div>
+      <div class="row">
+        <article class="col-xs-12 col-sm-6 item">
+          <div class="pic">
+            <img class="pic" src="./images/Ualalea-4.jpg">
+          </div>
+        </article> 
+        <article class="col-xs-12 col-sm-6 item">
+          <div class="pic">
+            <img class="pic" src="./images/Ualalea-5.jpg">
+          </div>
+        </article> 
+      </div>
+      <div class="row">
+        <article class="col-xs-12 item">
+          <div class="pic">
+            <img class="pic" src="./images/Ualalea-6.jpg">
+          </div>
+        </article>  
+      </div>
+      <div class="row">
+        <article class="col-xs-12 col-sm-6 item">
+          <div class="pic">
+            <img class="pic" src="./images/Ualalea-7.jpg">
+          </div>
+        </article> 
+        <article class="col-xs-12 col-sm-6 item">
+          <div class="pic">
+            <img class="pic" src="./images/Ualalea-8.jpg">
+          </div>
+        </article> 
+      </div>
+      <div class="row">
+        <article class="col-xs-12 item">
+          <div class="pic">
+            <img class="pic" src="./images/Ualalea-9.jpg">
+          </div>
+        </article>  
+      </div>
+    </div>
   </section>
   <footer>
     <div class="footer">

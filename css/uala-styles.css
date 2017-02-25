@@ -714,6 +714,24 @@ transform:skew(8deg) rotate(3deg);
 	line-height: 1.3em;
 }
 
+.mosaic {
+	margin: 2em 0;
+}
+
+.mosaic .item {
+	padding: 0.5em;
+}
+
+.mosaic .pic {
+	width: 100%;
+	height: auto;
+	border: 1px solid #e7e7e7;
+}
+
+.mosaic h2 {
+	text-align: center;
+}
+
 @media (max-width: 991px) {
 	.about-us .primary-content::after {
 		content: '';
