@@ -55,7 +55,13 @@
 				<div class="box shadow"> 
 					<div class="box-container">
 					<h4>¿Cómo puedo comprar mi Uala?</h4>
-					<p>...</p>
+					<p>
+					
+						Para realizar la compra de alguno de nuestros productos tienes dos opciones:
+						1. Creando un usuario que te permitirá recibir información de primera mano.
+						2. Usuario no registrado. Bastaría con introducir tus datos en el momento de la compra y solo el correo.
+					
+					</p>
 					</div>
 	  		</div>
   		</div>
