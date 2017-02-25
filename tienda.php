@@ -44,16 +44,17 @@
   <section class="main container virtual-shop">
     <div id="my-cart-11007317"></div>
     <div>
+    <script type="text/javascript" src="https://app.ecwid.com/script.js?11007317&data_platform=code&data_date=2017-02-12" charset="utf-8"></script>
+      
+      <script type="text/javascript"> xCategoriesV2("id=my-categories-11007317"); </script>
+    </div>
+    <div>
       <script type="text/javascript" src="https://app.ecwid.com/script.js?11007317&data_platform=code&data_date=2017-02-12" charset="utf-8"></script>
       <!-- remove layout parameter if you want to position minicart yourself -->
       <script type="text/javascript"> xMinicart("layout=attachToCategories", "id=my-cart-11007317"); </script>
+      <script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-11007317");</script>
     </div>
     <div>
-<script type="text/javascript" src="https://app.ecwid.com/script.js?11007317&data_platform=code&data_date=2017-02-18" charset="utf-8"></script>
-<script type="text/javascript"> xCategoriesV2("id=my-categories-11007317"); </script>
-    </div>
-    <div>
-<script type="text/javascript" src="https://app.ecwid.com/script.js?11007317&data_platform=code&data_date=2017-02-18" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-11007317");</script>
     </div>
   </section>
   <footer>

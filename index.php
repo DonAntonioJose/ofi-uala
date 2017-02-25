@@ -51,17 +51,10 @@
 	    </ol>
 	    <div class="carousel-inner" role="listbox">
 	      <div class="item first-slide active">
-	        <!--img class="first-slide" src="./images/pano1.png" alt="First slide"-->
-	      </div>
+        </div>
 	      <div class="item second-slide">
-	        <!--img class="second-slide" src="./images/pano2.png" alt="Second slide"-->
-	        <div class="container">
-	        </div>
 	      </div>
 	      <div class="item third-slide">
-	        <!--img class="third-slide" src="./images/pano3.png" alt="Third slide"-->
-	        <div class="container">
-	        </div>
 	      </div>
 	    </div>
 	    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -76,7 +69,7 @@
   </div>
   <div class="container product-wrap">
   	<div class="row product-list">
-  		<div class="col-xs-12 col-sm-6 col-md-4 product">
+  		<div class="col-xs-12 col-sm-6 product">
 				<div class="content-product contenedor-img">  
 					<img src="./images/product.jpg" />  
 					<div class="cover">  
@@ -86,7 +79,7 @@
 					</div>  
 				</div>
   		</div>
-  		<div class="col-xs-12 col-sm-6 col-md-4 product">
+  		<div class="col-xs-12 col-sm-6 product">
 				<div class="content-product contenedor-img">  
 					<img src="./images/product2.jpg" />  
 					<div class="cover">  
@@ -96,7 +89,7 @@
 					</div>  
 				</div>
   		</div>
-  		<div class="col-xs-12 col-sm-6 col-md-4 product">
+  		<div class="col-xs-12 col-sm-6 product">
 				<div class="content-product contenedor-img">  
 					<img src="./images/product3.jpg" />  
 					<div class="cover">  
@@ -106,33 +99,13 @@
 					</div>  
 				</div>
   		</div>
-  		<div class="col-xs-12 col-sm-6 col-md-4 product">
+  		<div class="col-xs-12 col-sm-6 product">
 				<div class="content-product contenedor-img">  
 					<img src="./images/product4.jpg" />  
 					<div class="cover">  
 						<h2>Handbag</h2>  
 						<p>Combinación en tela y piel de vacuno. Forma de sobre con base y asa de pulsera de piel.</p>
 						<a href="./tienda.php#!/Handbag/c/22692224" class="link">Leer mas</a>  
-					</div>  
-				</div>
-  		</div>
-  		<div class="col-xs-12 col-sm-6 col-md-4 product">
-				<div class="content-product contenedor-img">  
-					<img src="./images/product5.jpeg" />  
-					<div class="cover">  
-						<h2>Ejemplo 1</h2>  
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
-						<a href="./virtualshop.html" class="link">Leer mas</a>  
-					</div>  
-				</div>
-  		</div>
-  		<div class="col-xs-12 col-sm-6 col-md-4 product">
-				<div class="content-product contenedor-img">  
-					<img src="./images/product6.jpeg" />  
-					<div class="cover">  
-						<h2>Ejemplo 1</h2>  
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse vitae tortor diam  in ullamcorper malesuada.</p>
-						<a href="./virtualshop.html" class="link">Leer mas</a>  
 					</div>  
 				</div>
   		</div>
