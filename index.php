@@ -77,14 +77,6 @@
   <div class="container product-wrap">
   	<div class="row product-list">
   		<div class="col-xs-12 col-sm-6 col-md-4 product">
-  			<!--div class="content-product">
-			    <img alt="Image for product" src="./images/product.jpeg">
-			    <div class="product-info">
-			    	<h3>Cosa bonita</h3>
-			    	<p>Breve descripcion del producto seleccionado</p>
-			    	<span>9.95€</span>
-			    </div>
-		    </div-->
 				<div class="content-product contenedor-img">  
 					<img src="./images/product.jpg" />  
 					<div class="cover">  
@@ -160,7 +152,7 @@
 	    <div class="col-xs-12 col-sm-4 footer-legal">
 				<div class="content-legal">
 					<a class="faq" href="./faq.php">FAQ</a>
-					<a class="term-legal" href="#">Términos Legales</a>
+					<a class="term-legal" href="./terminos-legales.php">Términos Legales</a>
 				</div>
 	    </div>
     </div>
