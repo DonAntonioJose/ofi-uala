@@ -427,7 +427,7 @@ transform: translateY(0px);
 }
 
 .horizontal-menu-item a span {
-		font-family: 'nixieone', cursive !important;
+	font-family: 'nixieone', cursive !important;
 	font-weight: bold;
 }
 
@@ -439,12 +439,55 @@ transform: translateY(0px);
 	font-weight: bold !important;
 }
 
+.virtual-shop button {
+	font-family: 'nixieone', cursive !important;
+	font-weight: bold;
+}
+
+.gwt-HTML {
+	color: #888 !important;
+	font-weight: bold !important;
+}
+
+.ecwid-form label {
+	color: #888 !important;
+	font-weight: bold !important;
+}
+
+.ecwid-form input {
+	color: #888 !important;
+	font-weight: bold !important;
+}
+
+.ecwid-form .ecwid-note {
+	color: #888 !important;
+	font-weight: bold !important;
+}
+
+.ecwid-Checkout {
+	margin-top: 2em !important;
+}
+
+.ecwid-form .gwt-ListBox {
+	font-size: 1em !important;
+}
+
 .ecwid-productBrowser-subcategories-mainTable {
 	display: none !important;
 }
 
 .ecwid {
 	text-align: right !important;
+}
+
+.ecwid-Checkout-blockTitle {
+	color: #888 !important;
+	font-weight: bold !important;
+}
+
+.ecwid-Checkout-blockTitle-text {
+	color: #888 !important;
+	font-weight: bold !important;
 }
 
 .horizontal-menu {
