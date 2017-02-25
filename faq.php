@@ -113,6 +113,9 @@
 					</div>
 				</div>
   		</div>
+  		<div class="col-xs-12">
+  			<p class="text">Cualquier otra consulta que tengas puedes ponerte en contacto con nosotros a través del correo info@ualasince1990.com </p>
+			</div>
   	</div>
   </div>
 	<footer>

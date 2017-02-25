@@ -857,6 +857,13 @@ transform:skew(8deg) rotate(3deg);
 	display: none;
 }
 
+.faq .text {
+	text-align: center;
+	font-size: 0.9em;
+	line-height: 1.3em;
+	margin-bottom: 2em;
+}
+
 @media (max-width: 991px) {
 	.about-us .primary-content::after {
 		content: '';
