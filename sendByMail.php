@@ -35,7 +35,7 @@ try {
 	
 	
 
-	header('Location: /ofi-uala/contact.php?sent=ok');
+	header('Location: /gatete/contacto.php?sent=ok');
 	
 	
 }catch (phpmailerException $e) {
