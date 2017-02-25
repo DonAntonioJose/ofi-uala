@@ -46,7 +46,7 @@
       <h2 class="mobile"> Since 1990 </h2>
       <div class="row">
         <article class="col-xs-12 col-sm-8 item">
-          <img class="pic" src="./images/Ualalea-1.jpg" alt="First slide">
+          <img class="pic" src="./images/Ualalea-1.jpg" alt="bolso">
         </article>
         <article class="col-xs-12 col-sm-4 item">
           <h2 class="desktop"> Since 1990 </h2>
@@ -55,52 +55,52 @@
       <div class="row">
         <article class="col-xs-12 item">
           <div class="pic">
-            <img class="pic" src="./images/Ualalea-2.jpg">
+            <img class="pic" src="./images/Ualalea-2.jpg" alt="bolso">
           </div>
         </article>  
       </div>
       <div class="row">
         <article class="col-xs-12 item">
           <div class="pic">
-            <img class="pic" src="./images/Ualalea-3.jpg">
+            <img class="pic" src="./images/Ualalea-3.jpg" alt="bolso">
           </div>
         </article>  
       </div>
       <div class="row">
         <article class="col-xs-12 col-sm-6 item">
           <div class="pic">
-            <img class="pic" src="./images/Ualalea-4.jpg">
+            <img class="pic" src="./images/Ualalea-4.jpg" alt="bolso">
           </div>
         </article> 
         <article class="col-xs-12 col-sm-6 item">
           <div class="pic">
-            <img class="pic" src="./images/Ualalea-5.jpg">
+            <img class="pic" src="./images/Ualalea-5.jpg" alt="bolso">
           </div>
         </article> 
       </div>
       <div class="row">
         <article class="col-xs-12 item">
           <div class="pic">
-            <img class="pic" src="./images/Ualalea-6.jpg">
+            <img class="pic" src="./images/Ualalea-6.jpg" alt="bolso">
           </div>
         </article>  
       </div>
       <div class="row">
         <article class="col-xs-12 col-sm-6 item">
           <div class="pic">
-            <img class="pic" src="./images/Ualalea-7.jpg">
+            <img class="pic" src="./images/Ualalea-7.jpg" alt="bolso">
           </div>
         </article> 
         <article class="col-xs-12 col-sm-6 item">
           <div class="pic">
-            <img class="pic" src="./images/Ualalea-8.jpg">
+            <img class="pic" src="./images/Ualalea-8.jpg" alt="bolso">
           </div>
         </article> 
       </div>
       <div class="row">
         <article class="col-xs-12 item">
           <div class="pic">
-            <img class="pic" src="./images/Ualalea-9.jpg">
+            <img class="pic" src="./images/Ualalea-9.jpg" alt="bolso">
           </div>
         </article>  
       </div>
