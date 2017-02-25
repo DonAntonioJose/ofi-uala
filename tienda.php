@@ -56,9 +56,6 @@
 <script type="text/javascript" src="https://app.ecwid.com/script.js?11007317&data_platform=code&data_date=2017-02-18" charset="utf-8"></script><script type="text/javascript"> xProductBrowser("categoriesPerRow=3","views=grid(20,3) list(60) table(60)","categoryView=grid","searchView=list","id=my-store-11007317");</script>
     </div>
   </section>
-
-
-
   <footer>
     <div class="footer">
       <div class="col-xs-12 col-sm-4 footer-brand">
@@ -73,16 +70,13 @@
       <div class="col-xs-12 col-sm-4 footer-legal">
         <div class="content-legal">
           <a class="faq" href="./faq.php">FAQ</a>
-          <a class="term-legal" href="#">Términos Legales</a>
+          <a class="term-legal" href="./terminos-legales.php">Términos Legales</a>
         </div>
       </div>
     </div>
   </footer>
-
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="  crossorigin="anonymous"></script>
   <script src="js/uala.js"></script>
   <script src="js/bootstrap.min.js"></script>
-
-
 </body>
 </html>
