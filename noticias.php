@@ -43,12 +43,13 @@
   </header>
   <section class="main container">
     <div class="mosaic">
+      <h2 class="mobile"> Since 1990 </h2>
       <div class="row">
         <article class="col-xs-12 col-sm-8 item">
           <img class="pic" src="./images/Ualalea-1.jpg" alt="First slide">
         </article>
         <article class="col-xs-12 col-sm-4 item">
-          <h2> Since 1990 </h2>
+          <h2 class="desktop"> Since 1990 </h2>
         </article>      
       </div>
       <div class="row">

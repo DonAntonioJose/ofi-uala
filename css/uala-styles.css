@@ -728,8 +728,14 @@ transform:skew(8deg) rotate(3deg);
 	border: 1px solid #e7e7e7;
 }
 
-.mosaic h2 {
+.mosaic .desktop {
 	text-align: center;
+	margin: 4.75em 0;
+	font-weight: bold;
+}
+
+.mosaic .mobile {
+	display: none;
 }
 
 @media (max-width: 991px) {
@@ -803,6 +809,15 @@ transform:skew(8deg) rotate(3deg);
 	}
 	.navbar-default .navbar-toggle .icon-bar {
 		background-color: #333;
+	}
+	.mosaic .desktop {
+		display: none;
+	}
+	.mosaic .mobile {
+		display: block;
+		text-align: center;
+		margin: 3em;
+		font-weight: bold;
 	}
 }
 
