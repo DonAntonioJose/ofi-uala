@@ -4,7 +4,7 @@ require 'PHPMailerAutoload.php';
 
 try {
 	
-	$email_to = "btrescordoba@gmail.com";
+	$email_to = "no-reply@ualasince1990.com";
 	$email_subject = "Contacto desde el sitio web";
 	$contact_Email = $_POST['contact_Email'];
 	$mail = new PHPMailer(true); //Nueva instancia, con las excepciones habilitadas
@@ -30,7 +30,7 @@ try {
 	$mail->IsHTML(true); // Enviar como HTML
 	$mail->Send();//Enviar
 	
-	header('Location: /gatete/contacto.php?sent=ok');
+	header('Location: /contacto.php?sent=ok');
 	
 }catch (phpmailerException $e) {
 	echo $e->errorMessage();//Mensaje de error si se produciera.
