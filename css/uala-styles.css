@@ -588,7 +588,37 @@ transform: translateY(0px);
 }
 
 .horizontal-mobile {
+	width: 8em !important;
+  padding: 1em 0 !important;
+  border: 1px solid #888 !important;
+}
+
+.horizontal-menu-button svg {
 	display: none !important;
+}
+
+.horizontal-menu-button-text {
+	color: #333 !important;
+	font-family: 'nixieone', cursive;
+	font-weight: bold;
+	font-size: 1.2em !important;
+}
+
+.horizontal-menu--mobile .horizontal-menu-item>a span {
+	line-height: 1.3em !important;
+}
+
+svg.horizontal-arrow-right {
+	float: right !important;
+	color: #333;
+}
+
+.horizontal-menu--mobile .horizontal-menu-item>a {
+	color: #333 !important;
+}
+
+.horizontal-menu-subParent {
+	border: 0 !important;
 }
 
 .ecwid-productBrowser-cart-hint {
