@@ -61,7 +61,7 @@
 	<footer>
     <div class="footer">
 	    <div class="col-xs-12 col-sm-4 footer-brand">
-	    	<p>© 2017 Uala. <span class="slogan">Since 1990</span></p>
+	    	<p>© 2017 Uala <span class="slogan">Since 1990</span></p>
 	    </div>
 	    <div class="col-xs-12 col-sm-4 footer-social">
 	    	<ul class="social">
