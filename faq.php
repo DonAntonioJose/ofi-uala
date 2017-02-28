@@ -69,7 +69,7 @@
 				<div class="box shadow"> 
 					<div class="box-container">
 					<h4>¿Cuánto tardará en llegar mi pedido?</h4>
-					<p>Tendrás tu pedido en la dirección de entrega que nos has indicado en 48-72 horas para destinos en la península. Para compras en Canarias y Baleares ponte en contacto con nosotros a través del mail info@ualasince1990.com y te informaremos presonalmente de los plazos.</p>
+					<p>Tendrás tu pedido en la dirección de entrega que nos has indicado en 48-72 horas para destinos en la península. Para compras en Canarias y Baleares ponte en contacto con nosotros a través del mail info@ualasince1990.com y te informaremos personalmente de los plazos.</p>
 					</div>
 				</div>
   		</div>
