@@ -57,7 +57,7 @@
       <div class="second-element">
         <article class="col-xs-12 col-md-7">
           <p>¡Este espacio es para vosotros!</p>
-          <p>Queremos saber qué pensáis, cuales con vuestras dudas e inquietudes sobre Uala since 1990. Así que no lo dudes y… ¡cuéntanos!</p>
+          <p>Queremos saber qué pensáis, cuales son vuestras inquietudes sobre Uala since 1990. Así que no lo dudes y… ¡cuéntanos!</p>
 		  <form action="sendbymail.php" method="post" role="contact_form" id="contact">
             <div class="form-group">
               <label for="contact_Name">Nombre </label>
