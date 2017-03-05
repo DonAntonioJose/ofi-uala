@@ -314,46 +314,87 @@ header {
 
 /*Ejemplo 1*/
 .content-product img {
-transition: all 0.2s linear;
+	-webkit-transition: all 0.2s linear;
+	-moz-transition: all 0.2s linear;
+	-o-transition: all 0.2s linear;
+	transition: all 0.2s linear;
 }
 .content-product .cover {
-opacity: 0;
-background-color: rgba(204,204,204, 0.7);
-transition: all 0.3s ease-in-out;
+	opacity: 0;
+	background-color: rgba(204,204,204, 0.7);
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
 }
 .content-product h2 {
-transform: translateX(-300px);/*Desplazamos a la izquierda*/
-opacity: 0;
-transition: all 0.7s ease-in-out;
+  -webkit-transform: translateY(-300px);
+  -moz-transform: translateY(-300px);
+  -ms-transform: translateY(-300px);
+  -o-transform: translateY(-300px);
+	transform: translateX(-300px);/*Desplazamos a la izquierda*/
+	opacity: 0;
+	-webkit-transition: all 0.7s ease-in-out;
+	-moz-transition: all 0.7s ease-in-out;
+	-o-transition: all 0.7s ease-in-out;
+	transition: all 0.7s ease-in-out;
 }
 .content-product p {
-transform: translateX(300px);/*Desplazamos a la derecha*/
-opacity: 0;
-transition: all 0.4s linear;
+  -webkit-transform: translateY(300px);
+  -moz-transform: translateY(300px);
+  -ms-transform: translateY(300px);
+  -o-transform: translateY(300px);
+	transform: translateX(300px);/*Desplazamos a la derecha*/
+	opacity: 0;
+	-webkit-transition: all 0.4s linear;
+	-moz-transition: all 04s linear;
+	-o-transition: all 0.4s linear;
+	transition: all 0.4s linear;
 }
 .content-product a.link{
-opacity: 0;
-transition: all 0.4s ease-in-out;
-transform: translateY(150px)/*Desplazamos para abajo*/
+	opacity: 0;
+	-webkit-transition: all 0.4s ease-in-out;
+	-moz-transition: all 0.4s ease-in-out;
+	-o-transition: all 0.4s ease-in-out;
+	transition: all 0.4s ease-in-out;
+  -webkit-transform: translateY(150px);
+  -moz-transform: translateY(150px);
+  -ms-transform: translateY(150px);
+  -o-transform: translateY(150px);
+	transform: translateY(150px);/*Desplazamos para abajo*/
 }
 .content-product:hover img {
-transform: scale(1.1);/*Damos un ligero zoom a la imagen*/
+	transform: scale(1.1);/*Damos un ligero zoom a la imagen*/
 }
 .content-product:hover .cover {
-opacity: 1;
+	opacity: 1;
 }
 .content-product:hover h2,
 .content-product:hover p,
 .content-product:hover a.link {
-opacity: 1;
-transform: translateX(0px);/*Regresamos a las posiciones originales*/
+	opacity: 1;
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+	transform: translateX(0px);/*Regresamos a las posiciones originales*/
 }
 .content-product:hover p {
-transition-delay: 0.1s;
+	-webkit-transition-delay: 0.1s;
+	-moz-transition-delay: 0.1s;
+	-o-transition-delay: 0.1s;
+	transition-delay: 0.1s;
 }
 .content-product:hover a.link {
-transition-delay: 0.2s; /*Aplicamos un pequeño retardo para que se muestre al final*/
-transform: translateY(0px);
+	-webkit-transition-delay: 0.2s;
+	-moz-transition-delay: 0.2s;
+	-o-transition-delay: 0.2s;
+	transition-delay: 0.2s; /*Aplicamos un pequeño retardo para que se muestre al final*/
+  -webkit-transform: translateY(0px);
+  -moz-transform: translateY(0px);
+  -ms-transform: translateY(0px);
+  -o-transform: translateY(0px);
+	transform: translateY(0px);
 }
 
 /* About us */
