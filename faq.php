@@ -44,7 +44,7 @@
   <div class="main container faq">
   	<div class="row faq-list">
   		<div class="col-xs-12 col-md-6 question">
-				<div class="box shadow"> 
+				<div class="box"> 
 					<div class="box-container">
 					<h4>¿Cómo se fabrica un bolso Uala?</h4>
 					<p>Todos nuestros productos están diseñados por el equipo Uala, y los fabricamos en Ubrique de forma totalmente artesanal con pieles de primera calidad.</p>
@@ -52,7 +52,7 @@
 				</div>
   		</div>
   		<div class="col-xs-12 col-md-6 question">
-				<div class="box shadow"> 
+				<div class="box"> 
 					<div class="box-container">
 					<h4>¿Cómo puedo comprar mi Uala?</h4>
 					<p>
@@ -66,7 +66,7 @@
 	  		</div>
   		</div>
   		<div class="col-xs-12 col-md-6 question">
-				<div class="box shadow"> 
+				<div class="box"> 
 					<div class="box-container">
 					<h4>¿Cuánto tardará en llegar mi pedido?</h4>
 					<p>Tendrás tu pedido en la dirección de entrega que nos has indicado en 48-72 horas para destinos en la península. Para compras en Canarias y Baleares ponte en contacto con nosotros a través del mail info@ualasince1990.com y te informaremos personalmente de los plazos.</p>
@@ -74,7 +74,7 @@
 				</div>
   		</div>
   		<div class="col-xs-12 col-md-6 question">
-				<div class="box shadow"> 
+				<div class="box"> 
 					<div class="box-container">
 					<h4>¿Qué puedo hacer si me llega un artículo defectuoso o incorrecto?</h4>
 					<p>En Uala cuidamos al máximo los detalles, pero si encuentras algún defecto en el producto, o nos hemos equivocado en el envío, escribenos a través del mail info@ualasince1990.com y nos pondremos en contacto contigo para la recogida de la mercancia y entrega del producto correcto.</p>
@@ -82,7 +82,7 @@
 				</div>
   		</div>
   		<div class="col-xs-12 col-md-6 question">
-				<div class="box shadow"> 
+				<div class="box"> 
 					<div class="box-container">
 						<h4>¿Cúanto cuestan los gastos de envío?</h4>
 						<p>Los gastos de envío son gratuitos para pedidos de mas de 75€. Para pedidos inferiores los gastos de envío son 4,95€. Para compras en Canarias y Baleares ponte en contacto con nosotros a través del mail info@ualasince1990.com y te informaremos presonalmente de los gastos.</p>
@@ -90,7 +90,7 @@
 				</div>
   		</div>
   		<div class="col-xs-12 col-md-6 question">
-				<div class="box shadow"> 
+				<div class="box"> 
 					<div class="box-container">
 					<h4>¿Cómo puedo realizar una devolución de mi pedido?</h4>
 					<p>Ponte en contacto con nosotros en el mail info@ualasince1990.com y gestionaremos la recogida del producto. Esta recogida lleva un gasto de 4,95€ que deberá abonar el cliente con anterioridad.</p>
@@ -98,7 +98,7 @@
 				</div>
   		</div>
   		<div class="col-xs-12 col-md-6 question">
-				<div class="box shadow"> 
+				<div class="box"> 
 					<div class="box-container">
 					<h4>¿Cuáles son los medios de pago? ¿Es seguro comprar en Uala?</h4>
 					<p>Puedes comprar tus bolsos Uala mediante tarjeta de crédito o mediante transferencia bancaria. Trabajamos con los principales y más seguros métodos de pago de forma que la seguridad de cada transacción sea 100% segura.</p>
@@ -106,7 +106,7 @@
 				</div>
   		</div>
   		<div class="col-xs-12 col-md-6 question">
-				<div class="box shadow"> 
+				<div class="box"> 
 					<div class="box-container">
 					<h4>¿Cómo puedo asegurarme de que he hecho bien mi compra?</h4>
 					<p>Recibirás un email de confirmación  con todos los detalles de tu compra. Si no es así, mándanos un correo a info@ualasince1990.com y averiguaremos lo más rápido posible qué ha pasado.</p>
