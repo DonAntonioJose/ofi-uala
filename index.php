@@ -10,7 +10,6 @@
 	<link rel="shortcut icon" href="images/favicon-32x32.png" type="image/png" />
 </head>
 <body>
-
 	<header>
 		<nav class="navbar navbar-default">
 		  <div class="container-fluid">
