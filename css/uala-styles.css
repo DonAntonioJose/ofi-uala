@@ -740,6 +740,14 @@ svg.horizontal-arrow-right {
 	width: 100%;
 	height: calc(100vh - 70px);
 }
+.four-slide {
+	background-image: url('../images/pano4.jpg');
+	background-size: cover;
+	background-position: center;
+	display: block;
+	width: 100%;
+	height: calc(100vh - 70px);
+}
 
 .contact .wrap {
 	background-color: transparent;

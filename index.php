@@ -48,6 +48,7 @@
 	      <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
 	      <li data-target="#myCarousel" data-slide-to="1" class=""></li>
 	      <li data-target="#myCarousel" data-slide-to="2" class=""></li>
+	      <li data-target="#myCarousel" data-slide-to="3" class=""></li>
 	    </ol>
 	    <div class="carousel-inner" role="listbox">
 	      <div class="item first-slide active">
@@ -55,6 +56,8 @@
 	      <div class="item second-slide">
 	      </div>
 	      <div class="item third-slide">
+	      </div>
+  	      <div class="item four-slide">
 	      </div>
 	    </div>
 	    <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
@@ -93,9 +96,9 @@
 				<div class="content-product contenedor-img">  
 					<img src="./images/product3.jpg" />  
 					<div class="cover">  
-						<h2>Shopper</h2>  
-						<p>Bolso combinación en tela y piel de vacuno. Es un diseño que presenta doble asa de hombro con detalle de borla.</p>
-						<a href="./tienda.php#!/Shopper/c/22692223" class="link">Leer mas</a>  
+						<h2>Backpack</h2>  
+						<p>Mochila combinada en tela y piel de vacuno. El diseño presenta la base y asas ajustables en piel con cierre fruncido superior con cordón marfil. El interior contiene dos bolsillos, uno abierto y un compartimento con cremallera.</p>
+						<a href="./tienda.php#!/Backpack/c/24696031" class="link">Leer mas</a>  
 					</div>  
 				</div>
   		</div>
@@ -103,9 +106,9 @@
 				<div class="content-product contenedor-img">  
 					<img src="./images/product4.jpg" />  
 					<div class="cover">  
-						<h2>Handbag</h2>  
-						<p>Combinación en tela y piel de vacuno. Forma de sobre con base y asa de pulsera de piel.</p>
-						<a href="./tienda.php#!/Handbag/c/22692224" class="link">Leer mas</a>  
+						<h2>More</h2>  
+						<p>Monedero plano, bicolor en mate y metalizado realizado en piel vacuna. Cierre de cremallera y frontal personalizado con logo grabado.</p>
+						<a href="./tienda.php#!/More/c/24696032" class="link">Leer mas</a>  
 					</div>  
 				</div>
   		</div>
