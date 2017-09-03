@@ -43,13 +43,15 @@
   </header>
   <section class="main container">
     <div class="mosaic">
-      <h2 class="mobile"> Since 1990 </h2>
+      <div class="row item">
+        <img class="pic mobile" src="./images/ualalea-text.jpg" alt="texto">
+      </div>
       <div class="row">
-        <article class="col-xs-12 col-sm-8 item">
+        <article class="col-xs-12 col-sm-6 item">
           <img class="pic" src="./images/Ualalea-1.jpg" alt="bolso">
         </article>
-        <article class="col-xs-12 col-sm-4 item">
-          <h2 class="desktop"> Since 1990 </h2>
+        <article class="col-xs-12 col-sm-6 item">
+          <img class="pic desktop" src="./images/ualalea-text.jpg" alt="texto">
         </article>      
       </div>
       <div class="row">

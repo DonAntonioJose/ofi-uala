@@ -896,7 +896,6 @@ svg.horizontal-arrow-right {
 
 .mosaic .desktop {
 	text-align: center;
-	margin: 4.75em 0;
 	font-weight: bold;
 }
 
@@ -989,7 +988,6 @@ svg.horizontal-arrow-right {
 	.mosaic .mobile {
 		display: block;
 		text-align: center;
-		margin: 3em;
 		font-weight: bold;
 	}
 
